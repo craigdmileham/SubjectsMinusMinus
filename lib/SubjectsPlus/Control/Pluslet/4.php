@@ -19,7 +19,7 @@ class Pluslet_4 extends Pluslet {
         $this->_subject_id = $subject_id;
         $this->_pluslet_id = 4;
         $this->_pluslet_id_field = "pluslet-" . $this->_pluslet_id;
-        $this->_title = _("FAQs");
+        $this->_title = _("FAQ");
     }
 
     public function output($action="", $view="public") {

@@ -82,3 +82,5 @@ db.ini
 new_acquisitions.php
 
 tests/_output/*
+
+/acceptance.suite.yml

@@ -10,7 +10,7 @@
  *   @date Mar 2011
  *   @todo
  */
-class Pluslet_4 extends Pluslet {
+class Pluslet_8 extends Pluslet {
 
     public function __construct($pluslet_id, $flag="", $subject_id) {
         parent::__construct($pluslet_id, $flag, $subject_id);
@@ -19,7 +19,7 @@ class Pluslet_4 extends Pluslet {
         $this->_subject_id = $subject_id;
         $this->_pluslet_id = 4;
         $this->_pluslet_id_field = "pluslet-" . $this->_pluslet_id;
-        $this->_title = _("FAQs");
+        $this->_title = _("TEST");
     }
 
     public function output($action="", $view="public") {
@@ -29,12 +29,12 @@ class Pluslet_4 extends Pluslet {
         parent::establishView($view);
 
         // Get librarians associated with this guide
-        $querier = new sp_Querier();
+        $querier = new Querier();
         $qs = "SELECT f.faq_id, question, answer from faq f, faq_subject fs WHERE f.faq_id = fs.faq_id and fs.subject_id = " . $this->_subject_id . " ORDER BY question";
 
         //print $qs;
 
-        $faqArray = $querier->getResult($qs);
+        $faqArray = $querier->query($qs);
 
 
         if ($faqArray) {
