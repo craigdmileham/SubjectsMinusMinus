@@ -105,14 +105,23 @@ $newest_guides .= "</ul>\n";
 
 //get featured resources Added by Dan
 //select info for 1 active random guides
-$q3 = "select subject, subject_id, shortform from subject where active = '1' order by RAND() limit 0,1";
+$qfeatured = "SELECT title, location, access_restrictions FROM title t, location_title lt, location l WHERE t.title_id = lt.title_id AND l.location_id = lt.location_id AND t.featured = 1 order by t.title_id DESC";
 
-$featured_guides = "<ul>\n";
+//$rnew = $db->query($qnew);
 
-foreach ($db->query($q3) as $myrow3 ) {
-    $guide_location2 = $guide_path . $myrow3[2];
-    $featured_guides .= "<li><a href=\"$guide_location2\">" . trim($myrow3[0]) . "</a></li>\n";
+$featured_resources = "<ul>\n";
+    foreach ($db->query($qfeatured) as $myrow) {
+    $db_url = "";
+
+    // add proxy string if necessary
+    if ($myrow[2] != 1) {
+        $db_url = $proxyURL;
+    }
+
+    $featured_resources .= "<li><a href=\"$db_url$myrow[1][0]\">$myrow[0]</a></li>\n";
 }
+$featured_resources .= "</ul>\n";
+
 // Get our newest databases
 
 $qnew = "SELECT title, location, access_restrictions FROM title t, location_title lt, location l WHERE t.title_id = lt.title_id AND l.location_id = lt.location_id AND eres_display = 'Y' order by t.title_id DESC limit 0,5";
@@ -204,11 +213,13 @@ if (isset ($v2styles) && $v2styles == 1) {
 		<!-- start pluslet -->
         <div class="pluslet">
             <div class="titlebar">
-                <div class="titlebar_text"><?php print _("Featured Resource"); ?></div>
+                <div class="titlebar_text"><?php print _("Featured Resources"); ?></div>
             </div>
-            <div class="pluslet_body"> <?php print $featured_guides; ?> </div>
+            <div class="pluslet_body"> <?php print $featured_resources; ?> </div>
         </div>
+		
         <!-- end pluslet -->
+		
         <br />
 
     </div>

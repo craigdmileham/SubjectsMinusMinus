@@ -1,5 +1,6 @@
 <?php
    namespace SubjectsPlus\Control;
+   
 /**
  *   @file sp_Record
  *   @brief manage records
@@ -12,6 +13,9 @@
 use SubjectsPlus\Control\Querier;
 
 class Record {
+	
+	///Added by Dan
+	private $_featured;
 
 	private $_record_id;
 	private $_prefix;
@@ -58,6 +62,9 @@ class Record {
   			$this->_title = $_POST["title"];
   			$this->_alternate_title = $_POST["alternate_title"];
   			$this->_description = $_POST["description"];
+			////Added by Dan
+			$this->_featured = $_POST["featured"];
+			
 
         // data stored in location table
         $this->_location_id = $_POST["location_id"]; // array
@@ -91,7 +98,7 @@ class Record {
         // Get title table info (title, description)
         /////////////
         $querier = new Querier();
-        $q1 = "select title_id, pre, title, alternate_title, description from title where title_id = " . $this->_record_id;
+        $q1 = "select title_id, pre, title, alternate_title, description, featured from title where title_id = " . $this->_record_id;
         $titleArray = $querier->query($q1);
 
         $this->_debug .= "<p>Title query: $q1";
@@ -103,6 +110,7 @@ class Record {
         	$this->_title = $titleArray[0]["title"];
         	$this->_alternate_title = $titleArray[0]["alternate_title"];
         	$this->_description = $titleArray[0]["description"];
+			$this->_featured = $titleArray[0]["featured"];
         }
 
         ///////////////////
@@ -159,6 +167,8 @@ class Record {
   	global $CKPath;
   	global $CKBasePath;
   	global $IconPath;
+	$radioNo;
+	$radioYes;
 
   	$action = htmlentities($_SERVER['PHP_SELF']) . "?record_id=" . $this->_record_id;
 
@@ -168,7 +178,22 @@ class Record {
 
     // set up
     print "<div class=\"pure-g\">";
-
+	if($this->_featured == 1){
+		
+		$radioYes = ' checked="checked"';
+		$radioNo = "";
+		
+		
+	}else{
+		
+		$radioYes = "";
+		$radioNo = ' checked="checked"';
+		
+	}
+	//str_replace('"', "", $radioYes);
+	//str_replace("'", "", $radioYes);
+	//str_replace('"', "", $radioNo);
+	//str_replace("'", "", $radioNo);
   	echo "
   	<form action=\"" . $action . "\" method=\"post\" id=\"new_record\" accept-charset=\"UTF-8\" class=\"pure-form pure-form-stacked\">
   	<input type=\"hidden\" name=\"title_id\" value=\"" . $this->_record_id . "\" />
@@ -179,6 +204,11 @@ class Record {
       <div class=\"titlebar_options\"></div>
     </div>
     <div class=\"pluslet_body\">
+	
+		<label for=\"Featured\">" . _("Featured") . "</label>
+        <input type=\"text\" name=\"featured\" id=\"featured\" class=\"pure-input-1-4\" value=\"" . $this->_featured . "\" />
+
+		
         <label for=\"prefix\">" . _("Prefix") . "</label>
       	<input type=\"text\" name=\"prefix\" id=\"prefix\" class=\"pure-input-1-4\" value=\"" . $this->_prefix . "\" />
 
@@ -454,7 +484,7 @@ public function buildLocation() {
  	<label for=\"location[]\">$format_label_text</label>
  	<input type=\"hidden\" value=\"{$this->_location_id}\" name=\"location_id[]\" />
 
-  <input type=\"text\" class=\"record_location check_url pure-input-2-3 required_field \" name=\"location[]\" value=\"{$this->_location}\" />
+  <input type=\"text\" class=\"record_location check_url pure-input-2-3 \" name=\"location[]\" value=\"{$this->_location}\" />
   $checkurl_icon
  	<span class=\"smaller url_feedback\"></span>
  	<div class=\"$input_callnum_class\"><span class=\"record_label\">" . _("Call Number") . "</span><br /><input type=\"text\" value=\"{$this->_call_number}\" name=\"call_number[]\" size=\"20\" /></div>
@@ -558,7 +588,7 @@ public function buildLocation() {
  	<textarea style=\"display: none; clear: both;\" class=\"desc_override\" name=\"description_override[]\" rows=\"4\" cols=\"35\">$value[5]</textarea>
  	</div>
  	<div class=\"pure-u-1-2\">
- 	<img src=\"$IconPath/delete.png\" class=\"delete_sub icon_smaller\" alt=\"" . _("remove subject") . "\" title=\"" . _("remove subject") . "\" border=\"0\" />
+ 	<img src=\"$IconPath/delete.png\" class=\"delete_sub icon_smaller\" alt=\"" . _("Remove subject") . "\" title=\"" . _("Remove subject") . "\" border=\"0\" />
  	<img src=\"$IconPath/$source_icon\" class=\"source_override icon_smaller\" id=\"source_override-$value[1]-$value[3]\" alt=\"" . _("change source type") . "\" title=\"" . _("change source type") . "\" border=\"0\" />
  	<img src=\"$IconPath/$note_icon\" class=\"note_override icon_smaller\" id=\"note_override-$value[1]-$value[3]\" alt=\"" . _("add description override") . "\" title=\"" . _("add description override") . "\" border=\"0\" />
  	</div>
@@ -661,12 +691,16 @@ public function buildLocation() {
  	$our_title = $db->quote(scrubData($this->_title));
  	$our_alternate_title = $db->quote(scrubData($this->_alternate_title));
  	$our_prefix = $db->quote(scrubData($this->_prefix));
+	
+	///Added by Dan
+	$our_featured = $db->quote(scrubData($this->_featured));
 
  	$qInsertTitle = "INSERT INTO title (title, alternate_title, description, pre) VALUES (
  		" . $our_title . ",
  		" . $our_alternate_title . ",
  		" . $db->quote(scrubData($this->_description, "richtext")) . ",
- 		" . $our_prefix . "
+ 		" . $our_prefix . ",
+		" . $our_featured . "
  		)";
 
 $rInsertTitle = $db->exec($qInsertTitle);
@@ -718,8 +752,10 @@ public function updateRecord($notrack = 0) {
 	$our_title = $db->quote(scrubData($this->_title));
 	$our_alternate_title = $db->quote(scrubData($this->_alternate_title));
 	$our_prefix = $db->quote(scrubData($this->_prefix));
+	///Added by Dan
+	$our_featured = $db->quote(scrubData($this->_featured));
 
-	$qUpTitle = "UPDATE title SET title = " . $our_title . ", alternate_title = " . $our_alternate_title . ", description = " . $db->quote(scrubData($this->_description, "richtext")) . ", pre = " . $our_prefix . " WHERE title_id = " . scrubData($this->_title_id, "integer");
+	$qUpTitle = "UPDATE title SET title = " . $our_title . ", alternate_title = " . $our_alternate_title . ", description = " . $db->quote(scrubData($this->_description, "richtext")) . ", pre = " . $our_prefix . ", featured = " . $our_featured . " WHERE title_id = " . scrubData($this->_title_id, "integer");
 
 	$rUpTitle = $db->exec($qUpTitle);
 

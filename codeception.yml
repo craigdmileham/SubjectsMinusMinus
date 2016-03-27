@@ -1,4 +1,6 @@
-actor: Tester
+#actor: Tester
+include:
+    - lib/SubjectsPlus/Control	
 paths:
     tests: tests
     log: tests/_output
