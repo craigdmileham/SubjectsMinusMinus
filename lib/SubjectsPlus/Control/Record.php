@@ -169,6 +169,7 @@ class Record {
   	global $IconPath;
 	$radioNo;
 	$radioYes;
+	$isChecked;
 
   	$action = htmlentities($_SERVER['PHP_SELF']) . "?record_id=" . $this->_record_id;
 
@@ -177,15 +178,16 @@ class Record {
   	}
 
     // set up
+	
     print "<div class=\"pure-g\">";
 	if($this->_featured == 1){
-		
+		$isChecked = ' checked="checked"';
 		$radioYes = ' checked="checked"';
 		$radioNo = "";
 		
 		
 	}else{
-		
+		$isChecked = '';
 		$radioYes = "";
 		$radioNo = ' checked="checked"';
 		
@@ -206,7 +208,8 @@ class Record {
     <div class=\"pluslet_body\">
 	
 		<label for=\"Featured\">" . _("Featured") . "</label>
-        <input type=\"text\" name=\"featured\" id=\"featured\" class=\"pure-input-1-4\" value=\"" . $this->_featured . "\" />
+		<input type='hidden' name=\"featured\" id=\"featured\" value=0 />
+        <input type=\"checkbox\" name=\"featured\" id=\"featured\" class=\"pure-input-1-4\" value=1 \"" . $isChecked . "\"/>
 
 		
         <label for=\"prefix\">" . _("Prefix") . "</label>
