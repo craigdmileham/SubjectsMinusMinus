@@ -1,0 +1,5 @@
+input dialogue
+if cells = 1
+test fail case
+if cell fires > 5ms bin time
+cross correlate the two cells

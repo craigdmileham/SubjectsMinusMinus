@@ -112,6 +112,8 @@ switch ($our_site) {
 // Only want hoverintent to fire if window is a certain size
 var $window = $(window);
 
+var $rowcolor = $(".footable-row-detail").prev(".evenrow");
+
 function checkWidth() {
   windowsize = $window.width();
 
@@ -122,7 +124,7 @@ function checkWidth() {
 
   if (windowsize <= 747) {
       $("#spum_nav").hide();
-       $("li.mega").unbind();
+       $("li.mega").unbind();   
      }
 }
 
@@ -215,4 +217,15 @@ function printView() {
     
 }
 
+</script>
+<script>
+<?php include('./includes/js/hash.js'); ?>
+<?php include('./includes/js/track.js'); ?>
+<?php include('./includes/js/tabDropdown.js'); ?>
+<?php include('./includes/js/autoComplete.js'); ?>
+<?php include('./includes/js/jquery.scrollTo.js'); ?>
+hash.init();
+track.init();
+tabDropdown.init();
+autoComplete.init();
 </script>

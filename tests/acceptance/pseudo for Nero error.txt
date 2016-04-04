@@ -1,0 +1,11 @@
+record peaks(obj peak, float recorded peak time){
+
+	While peaktimes !=0
+		if peaktimes2 - peaktimes1 <.25s
+		peak2 = null;
+		//slide variables
+		//next row
+}
+
+
+//peaktimes is a matrix with parameters (resp, peak) resp = row peak is columns access call function on line 31, shift existing 31 onward. define function 

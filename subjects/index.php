@@ -15,7 +15,7 @@ include("../control/includes/autoloader.php");
 
 // If you have a theme set, but DON'T want to use it for this page, comment out the next line
 if (isset($subjects_theme)  && $subjects_theme != "") { include("themes/$subjects_theme/index.php"); exit;}
-
+   
 $use_jquery = array("ui");
 
 $page_title = $resource_name;
@@ -24,7 +24,7 @@ $keywords = "research, databases, subjects, search, find";
 $noheadersearch = TRUE;
 
 $db = new Querier;
-
+    
 // let's use our Pretty URLs if mod_rewrite = TRUE or 1
 if ($mod_rewrite == 1) {
    $guide_path = "";
@@ -103,24 +103,6 @@ foreach ($db->query($q2) as $myrow2 ) {
 
 $newest_guides .= "</ul>\n";
 
-//get featured resources Added by Dan
-//select info for 1 active random guides
-$qfeatured = "SELECT title, location, access_restrictions FROM title t, location_title lt, location l WHERE t.title_id = lt.title_id AND l.location_id = lt.location_id AND t.featured = 1 order by t.title_id DESC";
-
-//$rnew = $db->query($qnew);
-
-$featured_resources = "<ul>\n";
-    foreach ($db->query($qfeatured) as $myrow) {
-    $db_url = "";
-
-    // add proxy string if necessary
-    if ($myrow[2] != 1) {
-        $db_url = $proxyURL;
-    }
-
-    $featured_resources .= "<li><a href=\"$db_url$myrow[1][0]\">$myrow[0]</a></li>\n";
-}
-$featured_resources .= "</ul>\n";
 
 // Get our newest databases
 
@@ -190,8 +172,7 @@ if (isset ($v2styles) && $v2styles == 1) {
         </div>
         <div class="pluslet_body">
               <?php
-              $input_box = new CompleteMe("quick_search", "index.php", $proxyURL, "Quick Search", "guides", 30);
-              $input_box->displayBox();
+              print $searchbox;
               ?>
         </div>
       </div>
@@ -210,30 +191,6 @@ if (isset ($v2styles) && $v2styles == 1) {
             <div class="pluslet_body"> <?php print $newlist; ?> </div>
         </div>
         <!-- end pluslet -->
-		    <!-- start pluslet -->
-        <div class="pluslet">
-            <div class="titlebar">
-                <div class="titlebar_text"><?php print _("Featured Resources"); ?></div>
-            </div>
-            <div class="pluslet_body"> <?php print $featured_resources; ?> </div>
-        </div>
-
-        <!-- start pluslet -->
-        <div class="pluslet">
-            <div class="titlebar">
-                <div class="titlebar_text"><?php print _("Search Library Database"); ?></div>
-                <form name="walter" action="http://walter.drew.edu/solr/keyword.php" method="post" target="_parent">Look here for books, print journals, and reserves.<br>
-                     <input type="text" name="box1" size="50%" value="" onchange="document.summon.q.value=document.walter.box1.value;document.worldcat.q.value=document.walter.box1.value;document.gScholar.q.value=document.walter.box1.value;"><br>
-                     <p align="right"><input type="submit" value="Search the Library Catalog">
-                     <input type="hidden" name="box1is" value="anywhere">
-                     <input type="hidden" name="pubYear" value="pubYear">
-                     <input type="hidden" name="whatitis" value="whatitis">
-                     <input type="hidden" name="whereitsat" value="whereitsat">
-                     </p></form>
-            </div>
-        </div>
-        <!-- end plusley -->
-
         <br />
 
     </div>
