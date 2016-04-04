@@ -188,12 +188,7 @@ if (isset ($v2styles) && $v2styles == 1) {
         <div class="titlebar">
           <div class="titlebar_text"><?php print _("Search Databases"); ?></div>
         </div>
-        <div class="pluslet_body">
-              <?php
-              $input_box = new CompleteMe("quick_search", "index.php", $proxyURL, "Quick Search", "guides", 30);
-              $input_box->displayBox();
-              ?>
-        </div>
+        <div class="pluslet_body"><?php print $searchbox; ?></div>
       </div>
       <!-- end pluslet -->
         <div class="pluslet">
