@@ -14,7 +14,7 @@ $I->click('Submit');
 $I->click('Browse Items');
 $I->click('Avalon Project');
 $I->seeInCurrentUrl("control/records/record.php?record_id=261");
-$I->fillField('featured', '1');
+$I->checkOption('featured');
 $I->click("Save Record Now");
 //check if it is featured
 $I->amOnPage('/subjects/index.php');
@@ -29,7 +29,8 @@ $I->click('Submit');
 $I->click('Browse Items');
 $I->click('Avalon Project');
 $I->seeInCurrentUrl("control/records/record.php?record_id=261");
-$I->fillField('featured', '0');
+$I->seeCheckboxIsChecked('featured');
+$I->checkOption('featured');
 $I->click("Save Record Now");
 //make sure it is gone
 $I->amOnPage('/subjects/index.php');
