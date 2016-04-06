@@ -53,11 +53,11 @@ if (isset($_POST["search"])) {
 $tickboxes = "<ul>";
 
 foreach ($guide_types as $key) {
-    $tickboxes .= "<li><input type=\"checkbox\" id=\"show-" . ucfirst($key) . "\" name=\"show$key\"";
-    if ($view_type == "all" || $view_type == $key) {
-        $tickboxes .= " checked=\"checked\"";
-    }
-    $tickboxes .= "/>" . ucfirst($key) . " Guides</li></li>\n";
+    // $tickboxes .= "<li><input type=\"checkbox\" id=\"show-" . ucfirst($key) . "\" name=\"show$key\"";  Fixed the checkboxes issue 03/21/16
+    // if ($view_type == "all" || $view_type == $key) {
+    //    $tickboxes .= " checked=\"checked\"";
+    // }
+    //$tickboxes .= "/>" . ucfirst($key) . " Guides</li></li>\n";
 }
 
 $tickboxes .= "</ul>";
