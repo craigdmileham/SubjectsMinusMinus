@@ -230,36 +230,6 @@ if (isset ($v2styles) && $v2styles == 1) {
             </div>
         </div>
         <!-- end plusley -->
-		<!-- start pluslet -->
-		<div class="pluslet">
-        <div class="titlebar">
-          <div class="titlebar_text"><?php print _("Summon Search"); ?></div>
-        </div>
-        <div class="pluslet_body">
-              <form name="summon" action="http://drew.summon.serialssolutions.com/search" method="get" target="_parent">Summon searches nearly everything (including journal articles) !
-				 <br><input type="text" name="q" size="50%" value="" onchange="document.walter.box1.value=document.summon.q.value;document.worldcat.q.value=document.summon.q.value;document.gScholar.q.value=document.summon.q.value;"><br>
-				 <input type="hidden" name="ho" value="t">
-				 <input type="hidden" name="l" value="en">
-				 <p align="right"><input type="submit" value="Search Summon">
-				 </p></form>
-        </div>
-      </div>
-	  <!-- end pluslet -->
-	  <!-- start pluslet -->
-	  <div class="pluslet">
-        <div class="titlebar">
-          <div class="titlebar_text"><?php print _("Ebsco Discovery Service Search"); ?></div>
-        </div>
-        <div class="pluslet_body">
-              <form name="summon" action="http://web.a.ebscohost.com/ehost/search/basic?sid=5085287e-aaee-49db-ae78-289f00865823%40sessionmgr4004&vid=0&hid=4206&preview=false" method="get" target="_parent">Ebsco Discovery Service
-				 <br><input type="text" name="q" size="50%" value="" onchange="document.walter.box1.value=document.summon.q.value;document.worldcat.q.value=document.summon.q.value;document.gScholar.q.value=document.summon.q.value;"><br>
-				 <input type="hidden" name="ho" value="t">
-				 <input type="hidden" name="l" value="en">
-				 <p align="right"><input type="submit" value="Search EDS">
-				 </p></form>
-        </div>
-      </div>
-	  <!-- end pluslet -->
 
         <br />
 
