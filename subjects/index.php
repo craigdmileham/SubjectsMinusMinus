@@ -217,21 +217,21 @@ if (isset ($v2styles) && $v2styles == 1) {
         <div class="pluslet">
             <div class="titlebar">
                 <div class="titlebar_text"><?php print _("Search Library Database"); ?></div>
-                <div class="pluslet_body"> 
-				<form name="walter" action="http://walter.drew.edu/solr/keyword.php" method="post" target="_parent">Look here for books, print journals, and reserves.<br>
-                     <input type="text" name="box1" size="50%" value="" onchange="document.summon.q.value=document.walter.box1.value;document.worldcat.q.value=document.walter.box1.value;document.gScholar.q.value=document.walter.box1.value;"><br>
-                     <p align="right"><input type="submit" value="Search the Library Catalog">
-                     <input type="hidden" name="box1is" value="anywhere">
-                     <input type="hidden" name="pubYear" value="pubYear">
-                     <input type="hidden" name="whatitis" value="whatitis">
-                     <input type="hidden" name="whereitsat" value="whereitsat">
-                     </p></form>
-					 </div>
             </div>
+                <div class="pluslet_body">
+				             <form name="walter" action="http://walter.drew.edu/solr/keyword.php" method="post" target="_parent">Look here for books, print journals, and reserves.<br>
+                       <input type="text" name="box1" size="50%" value="" onchange="document.summon.q.value=document.walter.box1.value;document.worldcat.q.value=document.walter.box1.value;document.gScholar.q.value=document.walter.box1.value;"><br>
+                       <p align="right"><input type="submit" value="Search the Library Catalog">
+                         <input type="hidden" name="box1is" value="anywhere">
+                         <input type="hidden" name="pubYear" value="pubYear">
+                         <input type="hidden" name="whatitis" value="whatitis">
+                         <input type="hidden" name="whereitsat" value="whereitsat">
+                       </p></form>
+					     </div>
         </div>
         <!-- end plusley -->
 		<!-- start pluslet -->
-		<div class="pluslet">
+    <div class="pluslet">
         <div class="titlebar">
           <div class="titlebar_text"><?php print _("Summon Search"); ?></div>
         </div>
@@ -244,6 +244,7 @@ if (isset ($v2styles) && $v2styles == 1) {
 				 </p></form>
         </div>
       </div>
+
 	  <!-- end pluslet -->
 	  <!-- start pluslet -->
 	  <div class="pluslet">
