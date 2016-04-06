@@ -82,7 +82,7 @@ $user_photo_update = TRUE;
    http://www.yoursite.edu/library/sp/
    Make sure to include the trailing slash!
 */
-$BaseURL = "http://localhost:81/";
+$BaseURL = "http://localhost:80/SubjectsMinusMinus/";
 
 /* Name of this resource, i.e., SubjectsPlus */
 $resource_name = "SubjectsPlus";
