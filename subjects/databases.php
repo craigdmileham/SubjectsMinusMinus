@@ -31,7 +31,7 @@ if (!isset($_GET["letter"])) {
   $_GET["letter"] = "A";
   $page_title .= ":  A";
 } else {
-  $page_title .= ": " . ucfirst(scrubData($_GET["letter"]));
+  $page_title .= ": " . str_replace("%","", ucfirst(scrubData($_GET["letter"])));
 }
 
 // Deal with databases by subject display
