@@ -216,12 +216,12 @@ if (isset ($v2styles) && $v2styles == 1) {
         <!-- start pluslet -->
         <div class="pluslet">
             <div class="titlebar">
-                <div class="titlebar_text"><?php print _("Search Library Database"); ?></div>
+                <div class="titlebar_text"><?php print _("Search Library Catalog"); ?></div>
             </div>
                 <div class="pluslet_body">
 				             <form name="walter" action="http://walter.drew.edu/solr/keyword.php" method="post" target="_parent">Look here for books, print journals, and reserves.<br>
                        <input type="text" name="box1" size="50%" value="" onchange="document.summon.q.value=document.walter.box1.value;document.worldcat.q.value=document.walter.box1.value;document.gScholar.q.value=document.walter.box1.value;"><br>
-                       <p align="right"><input type="submit" value="Search the Library Catalog">
+                       <p align="right"><input type="submit" value="Search">
                          <input type="hidden" name="box1is" value="anywhere">
                          <input type="hidden" name="pubYear" value="pubYear">
                          <input type="hidden" name="whatitis" value="whatitis">
@@ -258,10 +258,10 @@ if (isset ($v2styles) && $v2styles == 1) {
 		.selected { background-color: #E0EFF7;border:solid 1px #E7E7E7;border-top:solid 1px #FFFFFF; }
 		#ebscohostCustomSearchBox #disciplineBlock { width:auto; }
 		#ebscohostCustomSearchBox .limiter { float:left;margin:0;padding:0;width:50%; }
-		
+
 		#ebscohostsearchtext { width: 144px; }
 		#ebscohostsearchtext.edspub { width: 245px; }
-		
+
 		.ebscohost-search-button.edspub {
 			border: 1px solid #156619;
 			padding: 5px 10px !important;
@@ -270,7 +270,7 @@ if (isset ($v2styles) && $v2styles == 1) {
 			font-weight: bold;
 			background-color: #156619;
 		}
-		
+
 		.ebscohost-title.edspub {
 			color: #1c7020;
 			font-weight: bold;
@@ -282,7 +282,7 @@ if (isset ($v2styles) && $v2styles == 1) {
 		<input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
 		<input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
 		<input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-		
+
 		<div style="background-image:url('http://support.ebscohost.com/images/logos/eds200.gif'); background-repeat:no-repeat; height:100px; width:440px; font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9pt; color:#353535;">
 			<div style="padding-top:5px;padding-left:215px;">
 				<span class="ebscohost-title " style="font-weight:bold;">Ebsco Discovery Service</span>
@@ -290,7 +290,7 @@ if (isset ($v2styles) && $v2styles == 1) {
 				<div>
 					<input id="ebscohostsearchtext" class="" name="ebscohostsearchtext" type="text" size="23"  style="font-size:9pt;padding-left:5px;margin-left:0px;" />
 					<input type="submit" value="Search" class="ebscohost-search-button " style="font-size:9pt;padding-left:5px;" />
-					
+
 					<div id="guidedFieldSelectors">
 						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_0" value="" checked="checked" />
 						<label class="label" for="guidedField_0"> Keyword</label>
@@ -299,39 +299,39 @@ if (isset ($v2styles) && $v2styles == 1) {
 						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_2" value="AU" />
 						<label class="label" for="guidedField_2"> Author</label>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
 
 		<div id="limiterblock" style="margin-left:-px; overflow: auto; ">
 			<div id="limitertitle" style="font-weight:bold;padding-top:25px;padding-bottom:5px;">Limit Your Results</div>
-			
+
 			<div class="limiter" >
 				<input type="checkbox" id="chkFullText" name="chkFullText"  />
 				<label for="chkFullText">Full Text</label>
 			</div>
-			
+
 			<div class="limiter" >
 				<input type="checkbox" id="chkLibraryCollection" name="chkLibraryCollection"  />
 				<label for="chkLibraryCollection">Available in Library Collection</label>
 			</div>
-			
+
 			<div class="limiter" >
 				<input type="checkbox" id="chkPeerReviewed" name="chkPeerReviewed"  />
 				<label for="chkPeerReviewed">Peer Reviewed</label>
 			</div>
-			
+
 			<div class="limiter" >
 				<input type="checkbox" id="chkCatalogOnly" name="chkCatalogOnly"  />
 				<label for="chkCatalogOnly">Catalog Only</label>
 			</div>
-			
+
 		</div>
 
-		
+
 		<div id="disciplineBlock" style="margin-left:-px; overflow: auto;">
-			
+
 			<div style="display:none;">
 				<input type="checkbox" id="" name="" value="AERO"  />
 				<label for="">Aerospace Sciences</label>
@@ -597,9 +597,9 @@ if (isset ($v2styles) && $v2styles == 1) {
 				<label for="">Zoology</label>
 			</div>
 		</div>
-		
 
-		
+
+
 	</form>
 	<!-- EBSCOhost Custom Search Box Ends -->
         <br />

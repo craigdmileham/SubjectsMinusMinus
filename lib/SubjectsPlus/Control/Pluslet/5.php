@@ -9,7 +9,7 @@
  *
  *   @author agdarby
  *   @date Feb 2011
- *   @todo 
+ *   @todo
  */
 
 class Pluslet_5 extends Pluslet {
@@ -32,26 +32,13 @@ class Pluslet_5 extends Pluslet {
         // example form action:  http://icarus.ithaca.edu/cgi-bin/Pwebrecon.cgi?
         $this->_body = '
             <form action="http://walter.drew.edu/solr/keyword.php" method="get" name="querybox" id="querybox">
-            <strong>Search for</strong>
-            <input type="hidden" value="local" name="DB" />
-            <input maxlength="800" size="25" name="Search_Arg" class="search_smaller" />
-            <input type="hidden" value="all of these" name="BOOL1" />
-            <strong>in </strong>
-            <select name="Search_Code" class="search_smaller">
-            <option value="CMD*">Keyword (use and/or)</option>
-            <option value="FT*">Keyword Anywhere</option>
-            <option value="TALL">Title (omit initial a, an, the)</option>
-
-            <option value="JALL">Journal Title (omit initial a, an, the)</option>
-            <option value="NAME_">Author (last name, first name)</option>
-            <option value="AUTH_">Author/Composer (sorted by title)</option>
-            <option value="SUBJ_">Subject (person, place, thing)</option>
-            <option value="CALL_">Call Number</option>
-            </select>
-            <input type="hidden" value="1" name="HIST" />
-            <input type="hidden" name="HIST" value="1" />
-            <input name="SUBMIT" type="submit" value="Go!" class="search_smaller" />
-            <input type="hidden" value="25" name="CNT" />
+              <strong>Search Library Catalog:</strong><br>
+            <input type="text" name="box1" size="25" value="" onchange="document.summon.q.value=document.walter.box1.value;document.worldcat.q.value=document.walter.box1.value;document.gScholar.q.value=document.walter.box1.value;">
+            <input type="submit" value="Search">
+            <input type="hidden" name="box1is" value="anywhere">
+            <input type="hidden" name="pubYear" value="pubYear">
+            <input type="hidden" name="whatitis" value="whatitis">
+            <input type="hidden" name="whereitsat" value="whereitsat">
             </form>
             ';
 
