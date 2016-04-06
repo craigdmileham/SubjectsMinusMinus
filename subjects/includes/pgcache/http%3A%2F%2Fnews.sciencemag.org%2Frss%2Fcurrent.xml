@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/">
+<channel rdf:about="http://www.sciencemag.org/about"><title>Science: Current Issue</title>
+<link>http://www.sciencemag.org</link>
+<description><![CDATA[The best in science news, commentary, and research]]></description>
+<dc:publisher>American Association for the Advancement of Science</dc:publisher>
+<dc:creator>Science Magazine (mailto:soleditor@aaas.org)</dc:creator>
+<dc:rights>Copyright 2014 American Association for the Advancement of Science</dc:rights>
+<dc:date>2016-03-31T13:36:02-04:00</dc:date>
+<dc:language>en</dc:language>
+<items>
+<rdf:Seq>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/11?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/12?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/15?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/16?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/18?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/19?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/20?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/21?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/24?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/28?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/29?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/31?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/32?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/34?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/35?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/37?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/38?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/40?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/42?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/43?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/44?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/46?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/47?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.1?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.2?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.3?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.4?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.5?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.6?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.7?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.8?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.9?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.10?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.11?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.12?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.13?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.14?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.15?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.16?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.17?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.18?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/48.19?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.1?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.2?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.3?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.4?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.5?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.6?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/49.7?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/aaf2154?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/aae0344?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/aac7341?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/54?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/61?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/67?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/69?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/73?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/76?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/80?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/84?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/87?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/91?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/95?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/99?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/104?rss=1"/>
+<rdf:li resource="http://science.sciencemag.org/content/352/6281/110?rss=1"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/11?rss=1">
+<title>[Editorial] New frontiers in bioscience</title>
+<link>http://science.sciencemag.org/content/352/6281/11?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Paul G. Allen</dc:creator>
+<description><![CDATA[In 1975, when relatively powerful microprocessors first became available, many young entrepreneurs—including myself—were inspired to create companies, platforms, and programming tools that helped make computing available to everyone. This in turn helped spark the information revolution. Today, thanks to the increasing sophistication, speed, and power of computer modeling and other new tools such as optogenetics and multiple forms of microscopy, we are on the brink of another revolution—this time in bioscience.
+Author: Paul G. Allen]]></description>
+<dc:identifier>10.1126/science.aaf7711</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/12?rss=1">
+<title>[In Brief] News at a glance</title>
+<link>http://science.sciencemag.org/content/352/6281/12?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<description><![CDATA[In science news around the world, Japan loses contact with its recently launched ASTRO-H x-ray observatory, a yellow fever outbreak ravages Luanda and depletes the World Health Organization's stockpile of vaccines, Ecuador names its first marine sanctuary around some of the waters of the Galápagos islands, the U.S. House of Representatives budget committee releases a plan that would eliminate the Department of Commerce and curb many research programs at the Department of Energy and the National Science Foundation, Japan's Kamioka Gravitational Wave Detector begins its first test run, and more. Also, embattled trachea surgeon Paolo Macchiarini is fired from the Karolinska Institute. And a new expedition to climb Mount Everest—a joint effort between a Welsh athlete and the University of South Wales, Pontypridd, in the United Kingdom—gets underway, with an eye to studying the mechanisms that link hypoxia with cognitive decline and dementia.
+]]></description>
+<dc:subject>SCI COMMUN</dc:subject>
+<dc:identifier>10.1126/science.352.6281.12</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/15?rss=1">
+<title>[In Depth] El Niño's warmth devastating reefs worldwide</title>
+<link>http://science.sciencemag.org/content/352/6281/15?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Dennis Normile</dc:creator>
+<description><![CDATA[Even as recently as early March, Australian coral reef scientists still hoped that the legendary Great Barrier Reef (GBR) would get off lightly in the current El Niño, the climate phenomenon that brings unusually warm water to the equatorial Pacific, stressing and often killing corals. No such luck. On 20 March, the GBR Marine Park Authority in Townsville, Australia, reported that divers were finding extensive coral bleaching—the loss of symbiotic algae—in remote northern areas of the reef. Many sections were already dead. Subsequent flyover surveys have confirmed an unfolding disaster, with only four of 520 reefs appearing unscathed. The GBR joins a lengthening list of reefs bleached because of the El Niño that started in late 2014. It is now the longest bleaching event ever, and many more corals worldwide will likely die.
+Author: Dennis Normile]]></description>
+<dc:subject>Ecology</dc:subject>
+<dc:identifier>10.1126/science.352.6281.15</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/16?rss=1">
+<title>[In Depth] Sandy ripples point to Mars's past</title>
+<link>http://science.sciencemag.org/content/352/6281/16?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Eric Hand</dc:creator>
+<description><![CDATA[Investigators with NASA's Curiosity rover are exploring dark sand dunes on Mars and have discovered structures thought to be unlike any on Earth: ripples spaced about 3 meters apart, intermediate in size between the little ripples and big dunes found on both planets. Scientists aren't sure how they form, but they think the density of the thin martian atmosphere plays a role in shaping them. If they can find the fossilized ripples in rocks hardened from ancient dunes, they could glean clues about the thicker atmosphere of early Mars. The result is one of the highlights of a campaign to investigate the dunes in Gale Crater that gird the mountain the rover is trying to get to. For several weeks this past December and January, the rover stopped to take pictures, make wind measurements, and sift sand into its chemical analysis instrument.
+Author: Eric Hand]]></description>
+<dc:subject>Planetary Science</dc:subject>
+<dc:identifier>10.1126/science.352.6281.16</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/18?rss=1">
+<title>[In Depth] Brazil bill would legalize renegade cancer pill</title>
+<link>http://science.sciencemag.org/content/352/6281/18?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Herton Escobar</dc:creator>
+<description><![CDATA[A showdown over a controversial cancer therapy has intensified, pitting Brazil's scientists against its congress. Last week, responding to a clamor from politicians and desperate patients, the congress voted to legalize the production and distribution of synthetic phosphoethanolamine, even though the putative cancer drug has not been clinically tested or registered with the Brazilian Health Surveillance Agency. Scientists blast the legislation as a travesty. Apart from patient testimonials and a few preliminary studies in tumor cell lines and in mice, critics say, there is no evidence of the safety or efficacy of the compound, popularly known as the "cancer pill" or "fosfo." Several thousand patients are estimated to have taken it. Brazilian President Dilma Rousseff has until 13 April to decide whether to sign the bill into law.
+Author: Herton Escobar]]></description>
+<dc:subject>Cancer Research</dc:subject>
+<dc:identifier>10.1126/science.352.6281.18</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/19?rss=1">
+<title>[In Depth] Canadian scientists smile at Liberals' déjà vu budget</title>
+<link>http://science.sciencemag.org/content/352/6281/19?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Wayne Kondro</dc:creator>
+<description><![CDATA[The first budget from Prime Minister Justin Trudeau brought smiles to the faces of Canadian scientists last week. The Liberal government's 2015–16 fiscal blueprint pumps up the country's three funding councils after years of static or declining budgets. It also resurrects several initiatives from the last budget of a Liberal government, presented in 2005, before the Conservatives took power under Stephen Harper and launched what many scientists regarded as a "war on science." The new budget includes a host of scientific goodies—and promised more to come—that are part of what Finance Minister Bill Morneau called "a new vision for Canada's economy as a center of global innovation, renowned for its science, technology, resourceful citizens, and globally competitive companies." Katie Gibbs, who leads Evidence for Democracy, a pro-science advocacy group based in Ottawa, says, "I think it shows strong support for science, and it marks a significant turning point for science in Canada compared with previous budgets."
+Author: Wayne Kondro]]></description>
+<dc:subject>Science Funding</dc:subject>
+<dc:identifier>10.1126/science.352.6281.19</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/20?rss=1">
+<title>[In Depth] No-strings awards at NIH draw concern</title>
+<link>http://science.sciencemag.org/content/352/6281/20?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Jocelyn Kaiser</dc:creator>
+<description><![CDATA[A new grant program launched by the National Institute of General Medical Sciences (NIGMS) to give researchers more stable, flexible funding is drawing concern because it has resulted in big cuts to some lab budgets. The program, Maximizing Investigators' Research Award, is part of an effort across the National Institutes of Health to expand the agency's use of awards that support people based on their track record, not projects. As a pilot test, in January 2015 NIGMS invited established investigators with at least two standard R01 research grants to apply for a MIRA in exchange for "somewhat less" funding. On average, the new awards amount to a 12% cut in a recipient's overall average NIGMS funding for the past 5 years, with much deeper cuts for some. Some recipients say they feel duped.
+Author: Jocelyn Kaiser]]></description>
+<dc:subject>Biomedicine</dc:subject>
+<dc:identifier>10.1126/science.352.6281.20</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/21?rss=1">
+<title>[Feature] Immunity goes local</title>
+<link>http://science.sciencemag.org/content/352/6281/21?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Mitch Leslie</dc:creator>
+<description><![CDATA[Immunologists thought they knew the main players in our immune system. But they have become convinced that temporary immune command posts erected by the body, called tertiary lymphoid structures (TLS) or tertiary lymphoid organs, are far more important to the body's defenses than previously realized. These organized congregations of immune tissue can sprout at sites of inflammation or infection almost anywhere in the body. They appear to instigate immune system counterattacks against pathogens and tumors—and may also promote the self-directed attacks of autoimmune diseases and the rejection of transplanted organs. These days, research on TLS "is exploding," says immunologist Andreas Habenicht of the University of Munich in Germany. Armed with new understanding of the signals that create these structures, drug companies have even begun testing compounds to block TLS formation in people with autoimmune diseases.
+Author: Mitch Leslie]]></description>
+<dc:identifier>10.1126/science.352.6281.21</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/24?rss=1">
+<title>[Feature] Occupational hazard</title>
+<link>http://science.sciencemag.org/content/352/6281/24?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Rhitu Chatterjee</dc:creator>
+<description><![CDATA[Farm workers in southern India are dying from chronic kidney disease, and no one knows what is causing it. But a rash of similar outbreaks in other countries, including Central America, Sri Lanka, and Egypt, has underscored that it is a global problem. Public health experts and researchers are alarmed and baffled. In Central America, which has been hit the hardest, the leading hypothesis is that this is an occupational disease, caused by chronic exposure to heat and dehydration in the cane fields. But in India, as in Sri Lanka and Central America, researchers are pursuing a wide range of ideas, including contaminants in drinking water, excessive use of over-the-counter painkillers, and exposure to pesticides. The beginnings of an international scientific network to study the disease and pinpoint a cause are now taking shape.
+Author: Rhitu Chatterjee]]></description>
+<dc:identifier>10.1126/science.352.6281.24</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/28?rss=1">
+<title>[Letter] Measures of success</title>
+<link>http://science.sciencemag.org/content/352/6281/28?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<description><![CDATA[]]></description>
+<dc:subject>Nextgen Voices</dc:subject>
+<dc:identifier>10.1126/science.352.6281.28</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/29?rss=1">
+<title>[Letter] Submit Now: Science Life in Six Words</title>
+<link>http://science.sciencemag.org/content/352/6281/29?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<description><![CDATA[]]></description>
+<dc:identifier>10.1126/science.352.6281.29</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/31?rss=1">
+<title>[Perspective] Mitochondrial disease therapy from thin air?</title>
+<link>http://science.sciencemag.org/content/352/6281/31?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Eric A. Shoubridge</dc:creator>
+<description><![CDATA[The mitochondrial oxidative phosphorylation (OXPHOS) system supplies most of the adenosine 59-triphosphate (ATP) in the human body. Defects in this system are among the most common genetic metabolic diseases, and many are associated with fatal, early-onset neurodegenerative conditions for which there are no effective treatments. On page 54 of this issue, Jain et al. (1) propose that restricting the oxygen supply to patients, who already have a defect in aerobic ATP synthesis, may be a form of therapy. This seems counterintuitive. How did the authors reach that conclusion?
+Author: Eric A. Shoubridge]]></description>
+<dc:subject>Mitochondria</dc:subject>
+<dc:identifier>10.1126/science.aaf5248</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/32?rss=1">
+<title>[Perspective] Rethinking the SN2 reaction</title>
+<link>http://science.sciencemag.org/content/352/6281/32?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Jing Xie</dc:creator>
+<description><![CDATA[The SN2 nucleophilic substitution reaction, X− + RY → XR + Y−, is a paradigm reaction in organic chemistry (1). The modern understanding of the SN2 reaction mechanism is based on work of Hughes and Ingold (2), who proposed that the nucleophile (X−) approaches the carbon atom that bears the leaving group (Y−). As a result, the bond between the carbon atom and the leaving group becomes weakened. As this bond breaks and a new bond forms between the nucleophile and the carbon atom, the configuration of the carbon atom is inverted. Analyses of gas-phase reaction rates led to the suggestion of a potential energy surface (PES) with two wells connected by a central barrier transition state (3). Electronic structure calculations have confirmed this picture for some SN2 reactions (4), but recent studies have shown that the actual reaction dynamics may be considerably more complex (see the figure) (5–8).
+Authors: Jing Xie, William L. Hase]]></description>
+<dc:subject>Organic Chemistry</dc:subject>
+<dc:identifier>10.1126/science.aaf5172</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/34?rss=1">
+<title>[Perspective] How Antarctica got its ice</title>
+<link>http://science.sciencemag.org/content/352/6281/34?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Caroline H. Lear</dc:creator>
+<description><![CDATA[Ice sheets such as those on Greenland and Antarctica today not only respond to changing climate but can also cause climate to change. Their sizes have fluctuated substantially in the past. In particular, Antarctica was effectively ice-free until its ice cover began to expand rapidly at the Eocene-Oligocene boundary around 34 million years ago (see the figure). Recent research, including a report by Galeotti et al. on page 76 of this issue (1), helps to identify the mechanisms that led to this rapid ice sheet growth.
+Authors: Caroline H. Lear, Dan J. Lunt]]></description>
+<dc:subject>Climate</dc:subject>
+<dc:identifier>10.1126/science.aad6284</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/35?rss=1">
+<title>[Perspective] Nursing the oocyte</title>
+<link>http://science.sciencemag.org/content/352/6281/35?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Melissa E. Pepling</dc:creator>
+<description><![CDATA[The generation of a mature egg, or oocyte, is essential for fertility. The oocyte requires the production of considerable quantities of messenger RNA (mRNA), protein, and organelles during its formation, a store needed for the subsequent development of the fertilized egg. In some species, these components are provided by neighboring cells called nurse cells (1). The role of nurse cells during oocyte development has been well studied in the fruit fly, Drosophila melanogaster, but it has been unclear if mammalian species also have nurse cells. On page 95 of this issue, Lei and Spradling (2) provide evidence for nurse cells during mouse oogenesis, adding to our understanding of mammalian oocyte development and raising hope for new infertility treatments.
+Author: Melissa E. Pepling]]></description>
+<dc:subject>Development</dc:subject>
+<dc:identifier>10.1126/science.aaf4943</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/37?rss=1">
+<title>[Perspective] An odd one out</title>
+<link>http://science.sciencemag.org/content/352/6281/37?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Boris Gänsicke</dc:creator>
+<description><![CDATA[Most stars in the universe are in the process of burning hydrogen into helium via nuclear fusion deep inside their cores, which powers their luminosity and provides the thermal pressure that stops them from collapsing under their own weight. Stars end their lives once the nuclear fuel runs out, at which point they will either explode in a supernova, or, much more commonly, shed most of their mass and leave behind a white dwarf. On page 67 of this issue, Kepler et al. (1) announce the identification of a white dwarf called SDSSJ1240+6710 that has an almost pure oxygen atmosphere, diluted only by traces of neon, magnesium, and silicon. This white dwarf challenges the textbook wisdom of single stellar evolution and may provide a link to some of the types of supernovae discovered over the past decade.
+Author: Boris Gänsicke]]></description>
+<dc:subject>Astronomy</dc:subject>
+<dc:identifier>10.1126/science.aaf3768</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/38?rss=1">
+<title>[Policy Forum] Engage key social concepts for sustainability</title>
+<link>http://science.sciencemag.org/content/352/6281/38?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Christina C. Hicks</dc:creator>
+<description><![CDATA[With humans altering climate processes, biogeochemical cycles, and ecosystem functions (1), governments and societies confront the challenge of shaping a sustainable future for people and nature. Policies and practices to address these challenges must draw on social sciences, along with natural sciences and engineering (2). Although various social science approaches can enable and assess progress toward sustainability, debate about such concrete engagement is outpacing actual use. To catalyze uptake, we identify seven key social concepts that are largely absent from many efforts to pursue sustainability goals. We present existing and emerging well-tested indicators and propose priority areas for conceptual and methodological development.
+Authors: Christina C. Hicks, Arielle Levine, Arun Agrawal, Xavier Basurto, Sara J. Breslow, Courtney Carothers, Susan Charnley, Sarah Coulthard, Nives Dolsak, Jamie Donatuto, Carlos Garcia-Quijano, Michael B. Mascia, Karma Norman, Melissa R. Poe, Terre Satterfield, Kevin St. Martin, Phillip S. Levin]]></description>
+<dc:subject>Social Science and Sustainability</dc:subject>
+<dc:identifier>10.1126/science.aad4977</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/40?rss=1">
+<title>[Perspective] Colloidal crystal ordering in a liquid crystal</title>
+<link>http://science.sciencemag.org/content/352/6281/40?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Christophe Blanc</dc:creator>
+<description><![CDATA[Nanoparticles (NPs) can now be synthesized with a wide array of controlled sizes, shapes, and properties. However, turning them into nanomaterials often requires packing them into ordered assemblies to manifest specific electronic or optical properties for applications in nanoelectronics, optics, and metamaterials. Colloidal self-assembly (1) of NPs is relatively simple but is often restricted to high-symmetry crystals by the lack of specific directional bonds, especially for dilute NP solutions. To obtain lower symmetries that confer useful optical or electronic properties, long-range directional interactions must be imparted. On page 69 of this issue, Mundoor et al. (2) make clever use of an anisotropic host fluid, a liquid crystal, to promote the formation of a low-symmetry crystal in a dilute dispersion of nanorods.
+Author: Christophe Blanc]]></description>
+<dc:subject>Self-Assembly</dc:subject>
+<dc:identifier>10.1126/science.aaf4260</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/42?rss=1">
+<title>[Perspective] A brain conditioned for social defeat</title>
+<link>http://science.sciencemag.org/content/352/6281/42?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Laura Desban</dc:creator>
+<description><![CDATA[Aggression is common in the animal kingdom, even though agonistic behaviors can lead to chronic stress or pain. So how does aggression remain conserved evolutionarily? In 1859, Darwin argued in his book On the Origin of Species that the conservation of any behavioral trait is ultimately explained by its necessity for survival and reproduction. To survive with limited resources, individuals express aggressive behaviors against competitors to pass on their genes. For social animals, dominance hierarchies establish rapidly (1), avoiding the cost of recurrent fighting within the group. Hierarchy formation and maintenance rely on the effect of prior experience (2). However, the underlying mechanisms and neural circuitry remain elusive. On page 87 of issue, Chou et al. (3) identify a key role for the dorsal habenula (dHb) region of the brain in zebrafish to determine who wins and who loses in a fight. This region is highly conserved across vertebrates, raising the possibility of manipulating neuronal circuits that govern innate social behaviors.
+Authors: Laura Desban, Claire Wyart]]></description>
+<dc:subject>Behavior</dc:subject>
+<dc:identifier>10.1126/science.aaf6016</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/43?rss=1">
+<title>[Perspective] A lncRNA links genomic variation with celiac disease</title>
+<link>http://science.sciencemag.org/content/352/6281/43?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Maite Huarte</dc:creator>
+<description><![CDATA[The majority of human single-nucleotide polymorphisms (SNPs) associated with increased disease risk map to noncoding regions of the genome. The nucleotide variations therefore cannot be directly related to changes in the function of proteins. Indeed, SNPs frequently localize to DNA regulatory elements such as enhancers or promoters, or within intergenic regions that are transcribed to produce long noncoding RNAs (lncRNAs). LncRNAs are RNA molecules longer than 200 nucleotides that do not encode proteins; in many instances, they regulate gene expression through diverse mechanisms. On page 91 of this issue, Castellanos-Rubio et al. (1) report that a relationship between the function of a lncRNA and the SNPs within its locus underlies celiac disease, an autoimmune disorder that causes intolerance to gluten.
+Author: Maite Huarte]]></description>
+<dc:subject>RNA</dc:subject>
+<dc:identifier>10.1126/science.aaf6015</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/44?rss=1">
+<title>[Perspective] Going with the flow</title>
+<link>http://science.sciencemag.org/content/352/6281/44?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Rainer E. Martin</dc:creator>
+<description><![CDATA[Imagine it is the middle of the night. A severe snow storm has hit the region, and your 3-year-old's fever is rising. You suspect a serious infection and cannot wait until the next morning to go to the pharmacy, yet the roads are impassable. No problem—you were recently granted access to a prototype machine no larger than a kitchen microwave that allows the user to synthesize their pharmaceutical of choice. You start up a smartphone app that has access to the family medical history and other relevant parameters, such as allergies and body weight. A few minutes later, you have consulted an emergency pediatrician through the app, inserted the relevant capsule, and pressed the start button. After a short wait, a single, personalized dose of the necessary antibiotic is ready for use. All this may sound like science fiction, but the report by Adamo et al. on page 61 of this issue (1) proves that this scenario might become reality in the not-too-distant future.
+Author: Rainer E. Martin]]></description>
+<dc:subject>Chemical Synthesis</dc:subject>
+<dc:identifier>10.1126/science.aaf3065</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/46?rss=1">
+<title>[Book Review] Identity theft</title>
+<link>http://science.sciencemag.org/content/352/6281/46?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Oliver Vikbladh</dc:creator>
+<description><![CDATA[In 1966, when David Reimer and his twin brother were only 7 months old, they were brought to a local hospital to be circumcised. A piece of equipment malfunctioned, and David emerged from the operation with his penis obliterated. Desperate and devastated, his parents turned to John Money, a well-known clinical psychologist and influential researcher of human sexuality at Johns Hopkins University. Money advised the Reimers to allow doctors to surgically construct female genitalia from David's remaining tissues and to raise him as a girl, unaware of what had transpired. The Reimers followed Money's recommendations—a decision they would later regret. In her new play, Boy, now on stage at the Clurman Theatre in New York City, playwright Anna Ziegler presents an engrossing, fictionalized account of the Reimer case.
+Author: Oliver Vikbladh]]></description>
+<dc:subject>Theate</dc:subject>
+<dc:identifier>10.1126/science.aaf6089</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/47?rss=1">
+<title>[Book Review] Life in the lab</title>
+<link>http://science.sciencemag.org/content/352/6281/47?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Meg Lowman</dc:creator>
+<description><![CDATA[In her new book, Lab Girl, Hope Jahren transforms the sedentary, slow-growing lives of plants into a vibrant series of stories that are interwoven with tales of her own research career. "In the end, I am not sure which is more extraordinary, the plants or the woman who studies them," writes reviewer Meg Lowman.
+Author: Meg Lowman]]></description>
+<dc:subject>Science Lives</dc:subject>
+<dc:identifier>10.1126/science.aaf2161</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.1?rss=1">
+<title>[This Week in Science] Sensitive ice sheets</title>
+<link>http://science.sciencemag.org/content/352/6281/48.1?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>H. Jesse Smith</dc:creator>
+<description><![CDATA[Author: H. Jesse Smith]]></description>
+<dc:subject>Ice Sheets</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-a</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.2?rss=1">
+<title>[This Week in Science] Cell-free DNA and adipose tissue inflammation</title>
+<link>http://science.sciencemag.org/content/352/6281/48.2?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Philip Yeagle</dc:creator>
+<description><![CDATA[Author: Philip Yeagle]]></description>
+<dc:subject>Obesity</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-b</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.3?rss=1">
+<title>[This Week in Science] Thriving on a breath of low oxygen</title>
+<link>http://science.sciencemag.org/content/352/6281/48.3?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Paula A. Kiberstis</dc:creator>
+<description><![CDATA[Author: Paula A. Kiberstis]]></description>
+<dc:subject>Mitochondrial Disease</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-c</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.4?rss=1">
+<title>[This Week in Science] Drug manufacturing in a fridge-sized box</title>
+<link>http://science.sciencemag.org/content/352/6281/48.4?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Jake Yeston</dc:creator>
+<description><![CDATA[Author: Jake Yeston]]></description>
+<dc:subject>Flow Chemistry</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-d</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.5?rss=1">
+<title>[This Week in Science] Long noncoding RNAs in inflammation</title>
+<link>http://science.sciencemag.org/content/352/6281/48.5?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Kristen L. Mueller</dc:creator>
+<description><![CDATA[Author: Kristen L. Mueller]]></description>
+<dc:subject>Immune Regulation</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-e</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.6?rss=1">
+<title>[This Week in Science] How to win a fish fight</title>
+<link>http://science.sciencemag.org/content/352/6281/48.6?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Peter Stern</dc:creator>
+<description><![CDATA[Author: Peter Stern]]></description>
+<dc:subject>Conflict Behavior</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-f</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.7?rss=1">
+<title>[This Week in Science] Discovery of an oxygen white dwarf</title>
+<link>http://science.sciencemag.org/content/352/6281/48.7?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Keith T. Smith</dc:creator>
+<description><![CDATA[Author: Keith T. Smith]]></description>
+<dc:subject>Stellar Evolution</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-g</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.8?rss=1">
+<title>[This Week in Science] Mouse oocytes receive sister cell factors</title>
+<link>http://science.sciencemag.org/content/352/6281/48.8?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Beverly A. Purnell</dc:creator>
+<description><![CDATA[Author: Beverly A. Purnell]]></description>
+<dc:subject>Mammalian Germ Cells</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-h</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.9?rss=1">
+<title>[This Week in Science] “WNK”ing away chronic pain</title>
+<link>http://science.sciencemag.org/content/352/6281/48.9?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Nancy R. Gough</dc:creator>
+<description><![CDATA[Author: Nancy R. Gough]]></description>
+<dc:subject>Pain</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-i</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.10?rss=1">
+<title>[This Week in Science] Apoptosis, necrosis, and pyroptosis</title>
+<link>http://science.sciencemag.org/content/352/6281/48.10?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Stella M. Hurtley</dc:creator>
+<description><![CDATA[Author: Stella M. Hurtley]]></description>
+<dc:subject>Cell Death Pathways</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-j</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.11?rss=1">
+<title>[This Week in Science] Improving on the gorilla genome</title>
+<link>http://science.sciencemag.org/content/352/6281/48.11?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Laura M. Zahn</dc:creator>
+<description><![CDATA[Author: Laura M. Zahn]]></description>
+<dc:subject>Nonhuman Genomics</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-k</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.12?rss=1">
+<title>[This Week in Science] Programming circuitry for synthetic biology</title>
+<link>http://science.sciencemag.org/content/352/6281/48.12?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>L. Bryan Ray</dc:creator>
+<description><![CDATA[Author: L. Bryan Ray]]></description>
+<dc:subject>Synthetic Biology</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-l</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.13?rss=1">
+<title>[This Week in Science] Competing forces drive ordering</title>
+<link>http://science.sciencemag.org/content/352/6281/48.13?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Marc S. Lavine</dc:creator>
+<description><![CDATA[Author: Marc S. Lavine]]></description>
+<dc:subject>Colloidal Ordering</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-m</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.14?rss=1">
+<title>[This Week in Science] A lanthanide boost for platinum</title>
+<link>http://science.sciencemag.org/content/352/6281/48.14?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Phil Szuromi</dc:creator>
+<description><![CDATA[Author: Phil Szuromi]]></description>
+<dc:subject>Electrocatalysis</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-n</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.15?rss=1">
+<title>[This Week in Science] Beyond textbook SN2 chemistry</title>
+<link>http://science.sciencemag.org/content/352/6281/48.15?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Julia Fahrenkamp-Uppenbrink</dc:creator>
+<description><![CDATA[Author: Julia Fahrenkamp-Uppenbrink]]></description>
+<dc:subject>Organic Chemistry</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-o</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.16?rss=1">
+<title>[This Week in Science] Getting a rise out of agriculture</title>
+<link>http://science.sciencemag.org/content/352/6281/48.16?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>H. Jesse Smith</dc:creator>
+<description><![CDATA[Author: H. Jesse Smith]]></description>
+<dc:subject>Atmospheric Methane</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-p</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.17?rss=1">
+<title>[This Week in Science] Birds populations allied in abundance</title>
+<link>http://science.sciencemag.org/content/352/6281/48.17?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Sacha Vignieri</dc:creator>
+<description><![CDATA[Author: Sacha Vignieri]]></description>
+<dc:subject>Climate Change</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-q</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.18?rss=1">
+<title>[This Week in Science] Guarding inflammation</title>
+<link>http://science.sciencemag.org/content/352/6281/48.18?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Angela Colmone</dc:creator>
+<description><![CDATA[Author: Angela Colmone]]></description>
+<dc:subject>Inflammation</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-r</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/48.19?rss=1">
+<title>[This Week in Science] Dialing down allergic responses</title>
+<link>http://science.sciencemag.org/content/352/6281/48.19?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Kristen L. Mueller</dc:creator>
+<description><![CDATA[Author: Kristen L. Mueller]]></description>
+<dc:subject>Immunology</dc:subject>
+<dc:identifier>10.1126/science.352.6281.48-s</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.1?rss=1">
+<title>[Editors' Choice] Machine learning in cosmological models</title>
+<link>http://science.sciencemag.org/content/352/6281/49.1?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Keith T. Smith</dc:creator>
+<description><![CDATA[Author: Keith T. Smith]]></description>
+<dc:subject>Galaxy Simulations</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-a</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.2?rss=1">
+<title>[Editors' Choice] Soma regulates germline differentiation</title>
+<link>http://science.sciencemag.org/content/352/6281/49.2?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Beverly A. Purnell</dc:creator>
+<description><![CDATA[Author: Beverly A. Purnell]]></description>
+<dc:subject>Germline</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-b</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.3?rss=1">
+<title>[Editors' Choice] Water walker</title>
+<link>http://science.sciencemag.org/content/352/6281/49.3?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Sacha Vignieri</dc:creator>
+<description><![CDATA[Author: Sacha Vignieri]]></description>
+<dc:subject>Tetrapod Evolution</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-c</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.4?rss=1">
+<title>[Editors' Choice] Reversing vascular deterioration in aged mice</title>
+<link>http://science.sciencemag.org/content/352/6281/49.4?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>L. Bryan Ray</dc:creator>
+<description><![CDATA[Author: L. Bryan Ray]]></description>
+<dc:subject>Aging</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-d</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.5?rss=1">
+<title>[Editors' Choice] Mismatch reduces minority STEM success</title>
+<link>http://science.sciencemag.org/content/352/6281/49.5?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Brad Wible</dc:creator>
+<description><![CDATA[Author: Brad Wible]]></description>
+<dc:subject>Diversity in Science</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-e</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.6?rss=1">
+<title>[Editors' Choice] Tough polymers from renewable sources</title>
+<link>http://science.sciencemag.org/content/352/6281/49.6?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Phil Szuromi</dc:creator>
+<description><![CDATA[Author: Phil Szuromi]]></description>
+<dc:subject>Polymers</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-f</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/49.7?rss=1">
+<title>[Editors' Choice] Forecasting forest recovery</title>
+<link>http://science.sciencemag.org/content/352/6281/49.7?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Andrew M. Sugden</dc:creator>
+<description><![CDATA[Author: Andrew M. Sugden]]></description>
+<dc:subject>Disease Ecology</dc:subject>
+<dc:identifier>10.1126/science.352.6281.49-g</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/aaf2154?rss=1">
+<title>[Review] Programmed necrosis in inflammation: Toward identification of the effector molecules</title>
+<link>http://science.sciencemag.org/content/352/6281/aaf2154?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>David Wallach</dc:creator>
+<description><![CDATA[Until recently, programmed cell death was conceived of as a single set of molecular pathways. We now know of several distinct sets of death-inducing mechanisms that lead to differing cell-death processes. In one of them—apoptosis—the dying cell affects others minimally. In contrast, programmed necrotic cell death causes release of immunostimulatory intracellular components after cell-membrane rupture. Defining the in vivo relevance of necrotic death is hampered because the molecules initiating it [such as receptor-interacting protein kinase–1 (RIPK1), RIPK3, or caspase-1] also serve other functions. Proteins that participate in late events in two forms of programmed necrosis [mixed lineage kinase domain–like protein (MLKL) in necroptosis and gasdermin-D in pyroptosis] were recently discovered, bringing us closer to identifying molecules that strictly serve in death mediation, thereby providing probes for better assessing its role in inflammation.
+Authors: David Wallach, Tae-Bong Kang, Christopher P. Dillon, Douglas R. Green]]></description>
+<dc:identifier>10.1126/science.aaf2154</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/aae0344?rss=1">
+<title>[Research Article] Long-read sequence assembly of the gorilla genome</title>
+<link>http://science.sciencemag.org/content/352/6281/aae0344?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>David Gordon</dc:creator>
+<description><![CDATA[Accurate sequence and assembly of genomes is a critical first step for studies of genetic variation. We generated a high-quality assembly of the gorilla genome using single-molecule, real-time sequence technology and a string graph de novo assembly algorithm. The new assembly improves contiguity by two to three orders of magnitude with respect to previously released assemblies, recovering 87% of missing reference exons and incomplete gene models. Although regions of large, high-identity segmental duplications remain largely unresolved, this comprehensive assembly provides new biological insight into genetic diversity, structural variation, gene loss, and representation of repeat structures within the gorilla genome. The approach provides a path forward for the routine assembly of mammalian genomes at a level approaching that of the current quality of the human genome.
+Authors: David Gordon, John Huddleston, Mark J. P. Chaisson, Christopher M. Hill, Zev N. Kronenberg, Katherine M. Munson, Maika Malig, Archana Raja, Ian Fiddes, LaDeana W. Hillier, Christopher Dunn, Carl Baker, Joel Armstrong, Mark Diekhans, Benedict Paten, Jay Shendure, Richard K. Wilson, David Haussler, Chen-Shan Chin, Evan E. Eichler]]></description>
+<dc:identifier>10.1126/science.aae0344</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/aac7341?rss=1">
+<title>[Research Article] Genetic circuit design automation</title>
+<link>http://science.sciencemag.org/content/352/6281/aac7341?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Alec A. K. Nielsen</dc:creator>
+<description><![CDATA[Computation can be performed in living cells by DNA-encoded circuits that process sensory information and control biological functions. Their construction is time-intensive, requiring manual part assembly and balancing of regulator expression. We describe a design environment, Cello, in which a user writes Verilog code that is automatically transformed into a DNA sequence. Algorithms build a circuit diagram, assign and connect gates, and simulate performance. Reliable circuit design requires the insulation of gates from genetic context, so that they function identically when used in different circuits. We used Cello to design 60 circuits for Escherichia coli (880,000 base pairs of DNA), for which each DNA sequence was built as predicted by the software with no additional tuning. Of these, 45 circuits performed correctly in every output state (up to 10 regulators and 55 parts), and across all circuits 92% of the output states functioned as predicted. Design automation simplifies the incorporation of genetic circuits into biotechnology projects that require decision-making, control, sensing, or spatial organization.
+Authors: Alec A. K. Nielsen, Bryan S. Der, Jonghyeon Shin, Prashant Vaidyanathan, Vanya Paralanov, Elizabeth A. Strychalski, David Ross, Douglas Densmore, Christopher A. Voigt]]></description>
+<dc:identifier>10.1126/science.aac7341</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/54?rss=1">
+<title>[Research Article] Hypoxia as a therapy for mitochondrial disease</title>
+<link>http://science.sciencemag.org/content/352/6281/54?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Isha H. Jain</dc:creator>
+<description><![CDATA[Defects in the mitochondrial respiratory chain (RC) underlie a spectrum of human conditions, ranging from devastating inborn errors of metabolism to aging. We performed a genome-wide Cas9-mediated screen to identify factors that are protective during RC inhibition. Our results highlight the hypoxia response, an endogenous program evolved to adapt to limited oxygen availability. Genetic or small-molecule activation of the hypoxia response is protective against mitochondrial toxicity in cultured cells and zebrafish models. Chronic hypoxia leads to a marked improvement in survival, body weight, body temperature, behavior, neuropathology, and disease biomarkers in a genetic mouse model of Leigh syndrome, the most common pediatric manifestation of mitochondrial disease. Further preclinical studies are required to assess whether hypoxic exposure can be developed into a safe and effective treatment for human diseases associated with mitochondrial dysfunction.
+Authors: Isha H. Jain, Luca Zazzeron, Rahul Goli, Kristen Alexa, Stephanie Schatzman-Bone, Harveen Dhillon, Olga Goldberger, Jun Peng, Ophir Shalem, Neville E. Sanjana, Feng Zhang, Wolfram Goessling, Warren M. Zapol, Vamsi K. Mootha]]></description>
+<dc:identifier>10.1126/science.aad9642</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/61?rss=1">
+<title>[Research Article] On-demand continuous-flow production of pharmaceuticals in a compact, reconfigurable system</title>
+<link>http://science.sciencemag.org/content/352/6281/61?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Andrea Adamo</dc:creator>
+<description><![CDATA[Pharmaceutical manufacturing typically uses batch processing at multiple locations. Disadvantages of this approach include long production times and the potential for supply chain disruptions. As a preliminary demonstration of an alternative approach, we report here the continuous-flow synthesis and formulation of active pharmaceutical ingredients in a compact, reconfigurable manufacturing platform. Continuous end-to-end synthesis in the refrigerator-sized [1.0 meter (width) × 0.7 meter (length) × 1.8 meter (height)] system produces sufficient quantities per day to supply hundreds to thousands of oral or topical liquid doses of diphenhydramine hydrochloride, lidocaine hydrochloride, diazepam, and fluoxetine hydrochloride that meet U.S. Pharmacopeia standards. Underlying this flexible plug-and-play approach are substantial enabling advances in continuous-flow synthesis, complex multistep sequence telescoping, reaction engineering equipment, and real-time formulation.
+Authors: Andrea Adamo, Rachel L. Beingessner, Mohsen Behnam, Jie Chen, Timothy F. Jamison, Klavs F. Jensen, Jean-Christophe M. Monbaliu, Allan S. Myerson, Eve M. Revalor, David R. Snead, Torsten Stelzer, Nopphon Weeranoppanant, Shin Yee Wong, Ping Zhang]]></description>
+<dc:identifier>10.1126/science.aaf1337</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/67?rss=1">
+<title>[Report] A white dwarf with an oxygen atmosphere</title>
+<link>http://science.sciencemag.org/content/352/6281/67?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>S. O. Kepler</dc:creator>
+<description><![CDATA[Stars born with masses below around 10 solar masses end their lives as white dwarf stars. Their atmospheres are dominated by the lightest elements because gravitational diffusion brings the lightest element to the surface. We report the discovery of a white dwarf with an atmosphere completely dominated by oxygen, SDSS J124043.01+671034.68. After oxygen, the next most abundant elements in its atmosphere are neon and magnesium, but these are lower by a factor of ≥25 by number. The fact that no hydrogen or helium are observed is surprising. Oxygen, neon, and magnesium are the products of carbon burning, which occurs in stars at the high-mass end of pre–white dwarf formation. This star, a possible oxygen-neon white dwarf, will provide a rare observational test of the evolutionary paths toward white dwarfs.
+Authors: S. O. Kepler, Detlev Koester, Gustavo Ourique]]></description>
+<dc:identifier>10.1126/science.aad6705</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/69?rss=1">
+<title>[Report] Triclinic nematic colloidal crystals from competing elastic and electrostatic interactions</title>
+<link>http://science.sciencemag.org/content/352/6281/69?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Haridas Mundoor</dc:creator>
+<description><![CDATA[The self-assembly of nanoparticles can enable the generation of composites with predesigned properties, but reproducing the structural diversity of atomic and molecular crystals remains a challenge. We combined anisotropic elastic and weakly screened electrostatic interactions to guide both orientational and triclinic positional self-ordering of inorganic nanocrystals in a nematic fluid host. The lattice periodicity of these low-symmetry colloidal crystals is more than an order of magnitude larger than the nanoparticle size. The orientations of the nanocrystals, as well as the crystallographic axes of the ensuing triclinic colloidal crystals, are coupled to the uniform alignment direction of the nematic host, which can be readily controlled on large scales. We examine colloidal pair and many-body interactions and show how triclinic crystals with orientational ordering of the semiconductor nanorods emerge from competing long-range elastic and electrostatic forces.
+Authors: Haridas Mundoor, Bohdan Senyuk, Ivan I. Smalyukh]]></description>
+<dc:identifier>10.1126/science.aaf0801</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/73?rss=1">
+<title>[Report] Tuning the activity of Pt alloy electrocatalysts by means of the lanthanide contraction</title>
+<link>http://science.sciencemag.org/content/352/6281/73?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>María Escudero-Escribano</dc:creator>
+<description><![CDATA[The high platinum loadings required to compensate for the slow kinetics of the oxygen reduction reaction (ORR) impede the widespread uptake of low-temperature fuel cells in automotive vehicles. We have studied the ORR on eight platinum (Pt)–lanthanide and Pt-alkaline earth electrodes, Pt5M, where M is lanthanum, cerium, samarium, gadolinium, terbium, dysprosium, thulium, or calcium. The materials are among the most active polycrystalline Pt-based catalysts reported, presenting activity enhancement by a factor of 3 to 6 over Pt. The active phase consists of a Pt overlayer formed by acid leaching. The ORR activity versus the bulk lattice parameter follows a high peaked “volcano” relation. We demonstrate how the lanthanide contraction can be used to control strain effects and tune the activity, stability, and reactivity of these materials.
+Authors: María Escudero-Escribano, Paolo Malacrida, Martin H. Hansen, Ulrik G. Vej-Hansen, Amado Velázquez-Palenzuela, Vladimir Tripkovic, Jakob Schiøtz, Jan Rossmeisl, Ifan E. L. Stephens, Ib Chorkendorff]]></description>
+<dc:identifier>10.1126/science.aad8892</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/76?rss=1">
+<title>[Report] Antarctic Ice Sheet variability across the Eocene-Oligocene boundary climate transition</title>
+<link>http://science.sciencemag.org/content/352/6281/76?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Simone Galeotti</dc:creator>
+<description><![CDATA[About 34 million years ago, Earth’s climate cooled and an ice sheet formed on Antarctica as atmospheric carbon dioxide (CO2) fell below ~750 parts per million (ppm). Sedimentary cycles from a drillcore in the western Ross Sea provide direct evidence of orbitally controlled glacial cycles between 34 million and 31 million years ago. Initially, under atmospheric CO2 levels of ≥600 ppm, a smaller Antarctic Ice Sheet (AIS), restricted to the terrestrial continent, was highly responsive to local insolation forcing. A more stable, continental-scale ice sheet calving at the coastline did not form until ~32.8 million years ago, coincident with the earliest time that atmospheric CO2 levels fell below ~600 ppm. Our results provide insight into the potential of the AIS for threshold behavior and have implications for its sensitivity to atmospheric CO2 concentrations above present-day levels.
+Authors: Simone Galeotti, Robert DeConto, Timothy Naish, Paolo Stocchi, Fabio Florindo, Mark Pagani, Peter Barrett, Steven M. Bohaty, Luca Lanci, David Pollard, Sonia Sandroni, Franco M. Talarico, James C. Zachos]]></description>
+<dc:identifier>10.1126/science.aab0669</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/80?rss=1">
+<title>[Report] A 21st-century shift from fossil-fuel to biogenic methane emissions indicated by 13CH4</title>
+<link>http://science.sciencemag.org/content/352/6281/80?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Hinrich Schaefer</dc:creator>
+<description><![CDATA[Between 1999 and 2006, a plateau interrupted the otherwise continuous increase of atmospheric methane concentration [CH4] since preindustrial times. Causes could be sink variability or a temporary reduction in industrial or climate-sensitive sources. We reconstructed the global history of [CH4] and its stable carbon isotopes from ice cores, archived air, and a global network of monitoring stations. A box-model analysis suggests that diminishing thermogenic emissions, probably from the fossil-fuel industry, and/or variations in the hydroxyl CH4 sink caused the [CH4] plateau. Thermogenic emissions did not resume to cause the renewed [CH4] rise after 2006, which contradicts emission inventories. Post-2006 source increases are predominantly biogenic, outside the Arctic, and arguably more consistent with agriculture than wetlands. If so, mitigating CH4 emissions must be balanced with the need for food production.
+Authors: Hinrich Schaefer, Sara E. Mikaloff Fletcher, Cordelia Veidt, Keith R. Lassey, Gordon W. Brailsford, Tony M. Bromley, Edward J. Dlugokencky, Sylvia E. Michel, John B. Miller, Ingeborg Levin, Dave C. Lowe, Ross J. Martin, Bruce H. Vaughn, James W. C. White]]></description>
+<dc:identifier>10.1126/science.aad2705</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/84?rss=1">
+<title>[Report] Consistent response of bird populations to climate change on two continents</title>
+<link>http://science.sciencemag.org/content/352/6281/84?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Philip A. Stephens</dc:creator>
+<description><![CDATA[Global climate change is a major threat to biodiversity. Large-scale analyses have generally focused on the impacts of climate change on the geographic ranges of species and on phenology, the timing of ecological phenomena.  We used long-term monitoring of the abundance of breeding birds across Europe and the United States to produce, for both regions, composite population indices for two groups of species: those for which climate suitability has been either improving or declining since 1980. The ratio of these composite indices, the climate impact indicator (CII), reflects the divergent fates of species favored or disadvantaged by climate change. The trend in CII is positive and similar in the two regions. On both continents, interspecific and spatial variation in population abundance trends are well predicted by climate suitability trends.
+Authors: Philip A. Stephens, Lucy R. Mason, Rhys E. Green, Richard D. Gregory, John R. Sauer, Jamie Alison, Ainars Aunins, Lluís Brotons, Stuart H. M. Butchart, Tommaso Campedelli, Tomasz Chodkiewicz, Przemysław Chylarecki, Olivia Crowe, Jaanus Elts, Virginia Escandell, Ruud P. B. Foppen, Henning Heldbjerg, Sergi Herrando, Magne Husby, Frédéric Jiguet, Aleksi Lehikoinen, Åke Lindström, David G. Noble, Jean-Yves Paquet, Jiri Reif, Thomas Sattler, Tibor Szép, Norbert Teufelbauer, Sven Trautmann, Arco J. van Strien, Chris A. M. van Turnhout, Petr Vorisek, Stephen G. Willis]]></description>
+<dc:identifier>10.1126/science.aac4858</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/87?rss=1">
+<title>[Report] Social conflict resolution regulated by two dorsal habenular subregions in zebrafish</title>
+<link>http://science.sciencemag.org/content/352/6281/87?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Ming-Yi Chou</dc:creator>
+<description><![CDATA[When animals encounter conflict they initiate and escalate aggression to establish and maintain a social hierarchy. The neural mechanisms by which animals resolve fighting behaviors to determine such social hierarchies remain unknown. We identified two subregions of the dorsal habenula (dHb) in zebrafish that antagonistically regulate the outcome of conflict. The losing experience reduced neural transmission in the lateral subregion of dHb (dHbL)–dorsal/intermediate interpeduncular nucleus (d/iIPN) circuit. Silencing of the dHbL or medial subregion of dHb (dHbM) caused a stronger predisposition to lose or win a fight, respectively. These results demonstrate that the dHbL and dHbM comprise a dual control system for conflict resolution of social aggression.
+Authors: Ming-Yi Chou, Ryunosuke Amo, Masae Kinoshita, Bor-Wei Cherng, Hideaki Shimazaki, Masakazu Agetsuma, Toshiyuki Shiraki, Tazu Aoki, Mikako Takahoko, Masako Yamazaki, Shin-ichi Higashijima, Hitoshi Okamoto]]></description>
+<dc:identifier>10.1126/science.aac9508</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/91?rss=1">
+<title>[Report] A long noncoding RNA associated with susceptibility to celiac disease</title>
+<link>http://science.sciencemag.org/content/352/6281/91?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Ainara Castellanos-Rubio</dc:creator>
+<description><![CDATA[Recent studies have implicated long noncoding RNAs (lncRNAs) as regulators of many important biological processes. Here we report on the identification and characterization of a lncRNA, lnc13, that harbors a celiac disease–associated haplotype block and represses expression of certain inflammatory genes under homeostatic conditions. Lnc13 regulates gene expression by binding to hnRNPD, a member of a family of ubiquitously expressed heterogeneous nuclear ribonucleoproteins (hnRNPs). Upon stimulation, lnc13 levels are reduced, thereby allowing increased expression of the repressed genes. Lnc13 levels are significantly decreased in small intestinal biopsy samples from patients with celiac disease, which suggests that down-regulation of lnc13 may contribute to the inflammation seen in this disease. Furthermore, the lnc13 disease-associated variant binds hnRNPD less efficiently than its wild-type counterpart, thus helping to explain how these single-nucleotide polymorphisms contribute to celiac disease.
+Authors: Ainara Castellanos-Rubio, Nora Fernandez-Jimenez, Radomir Kratchmarov, Xiaobing Luo, Govind Bhagat, Peter H. R. Green, Robert Schneider, Megerditch Kiledjian, Jose Ramon Bilbao, Sankar Ghosh]]></description>
+<dc:identifier>10.1126/science.aad0467</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/95?rss=1">
+<title>[Report] Mouse oocytes differentiate through organelle enrichment from sister cyst germ cells</title>
+<link>http://science.sciencemag.org/content/352/6281/95?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Lei Lei</dc:creator>
+<description><![CDATA[Oocytes differentiate in diverse species by receiving organelles and cytoplasm from sister germ cells while joined in germline cysts or syncytia. Mouse primordial germ cells form germline cysts, but the role of cysts in oogenesis is unknown. We find that mouse germ cells receive organelles from neighboring cyst cells and build a Balbiani body to become oocytes, whereas nurselike germ cells die. Organelle movement, Balbiani body formation, and oocyte fate determination are selectively blocked by low levels of microtubule-dependent transport inhibitors. Membrane breakdown within the cyst and an apoptosis-like process are associated with organelle transfer into the oocyte, events reminiscent of nurse cell dumping in Drosophila. We propose that cytoplasmic and organelle transport plays an evolutionarily conserved and functionally important role in mammalian oocyte differentiation.
+Authors: Lei Lei, Allan C. Spradling]]></description>
+<dc:identifier>10.1126/science.aad2156</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/99?rss=1">
+<title>[Report] The TAM family receptor tyrosine kinase TYRO3 is a negative regulator of type 2 immunity</title>
+<link>http://science.sciencemag.org/content/352/6281/99?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Pamela Y. Chan</dc:creator>
+<description><![CDATA[Host responses against metazoan parasites or an array of environmental substances elicit type 2 immunity. Despite its protective function, type 2 immunity also drives allergic diseases. The mechanisms that regulate the magnitude of the type 2 response remain largely unknown. Here, we show that genetic ablation of a receptor tyrosine kinase encoded by Tyro3 in mice or the functional neutralization of its ortholog in human dendritic cells resulted in enhanced type 2 immunity. Furthermore, the TYRO3 agonist PROS1 was induced in T cells by the quintessential type 2 cytokine, interleukin-4. T cell–specific Pros1 knockouts phenocopied the loss of Tyro3. Thus, a PROS1-mediated feedback from adaptive immunity engages a rheostat, TYRO3, on innate immune cells to limit the intensity of type 2 responses.
+Authors: Pamela Y. Chan, Eugenio A. Carrera Silva, Dimitri De Kouchkovsky, Leonel D. Joannas, Liming Hao, Donglei Hu, Scott Huntsman, Celeste Eng, Paula Licona-Limón, Jason S. Weinstein, De’Broski R. Herbert, Joseph E. Craft, Richard A. Flavell, Silvia Repetto, Jorge Correale, Esteban G. Burchard, Dara G. Torgerson, Sourav Ghosh, Carla V. Rothlin]]></description>
+<dc:identifier>10.1126/science.aaf1358</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/104?rss=1">
+<title>[New Products] New Products</title>
+<link>http://science.sciencemag.org/content/352/6281/104?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<description><![CDATA[A weekly roundup of information on newly offered instrumentation, apparatus, and laboratory materials of potential interest to researchers.
+]]></description>
+<dc:identifier>10.1126/science.352.6281.104</dc:identifier>
+</item>
+<item rdf:about="http://science.sciencemag.org/content/352/6281/110?rss=1">
+<title>[Working Life] Of mice and mics</title>
+<link>http://science.sciencemag.org/content/352/6281/110?rss=1</link>
+<dc:date>2016-04-01</dc:date>
+<dc:creator>Adam Ruben</dc:creator>
+<description><![CDATA[Author: Adam Ruben]]></description>
+<dc:identifier>10.1126/science.352.6281.110</dc:identifier>
+</item>
+</rdf:RDF>
