@@ -1587,7 +1587,7 @@ function listGuides($search = "", $type="all") {
         $andclause .= " AND type=" . $db->quote($type) . "";
     }
 
-  $q = "SELECT shortform, subject, type FROM subject WHERE active = '1'and archive = '0'" . $andclause . " ORDER BY subject";
+    $q = "SELECT shortform, subject, type FROM subject WHERE active = '1'and archive = '0'" . $andclause . " ORDER BY subject";
    // $r = $db->query($q);
     //print $q;
     $row_count = 0;
