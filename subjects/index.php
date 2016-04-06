@@ -68,10 +68,6 @@ $suggestibles = "";  // init
 $q = "select subject, shortform from subject where active = '1' order by subject";
 
 
-
-//initialize $suggestibles
-$suggestibles = '';
-
 foreach ($db->query($q) as $myrow) {
     $item_title = trim($myrow[0][0]);
 
