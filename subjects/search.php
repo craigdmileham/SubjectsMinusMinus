@@ -102,7 +102,7 @@ $subtitle = _("Search Results for ") . $_POST['searchterm'];
 
   <div class="pluslet no_overflow">
     <div class="titlebar">
-      <div class="titlebar_text"><?php print _("Search Subject Guides, Database Records, Staff List, FAQs, etc."); ?></div>
+      <div class="titlebar_text"><?php print _("Search Subject Guides"); ?></div>
       <div class="titlebar_options"></div>
     </div>
     <div class="pluslet_body">
