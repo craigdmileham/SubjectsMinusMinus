@@ -31,6 +31,7 @@ if (!isset($_GET["letter"])) {
   $_GET["letter"] = "A";
   $page_title .= ":  A";
 } else {
+	//added by Dan
   $page_title .= ": " . str_replace("%","", ucfirst(scrubData($_GET["letter"])));
 }
 

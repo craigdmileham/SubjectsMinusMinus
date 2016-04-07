@@ -182,20 +182,15 @@ class Record {
     print "<div class=\"pure-g\">";
 	if($this->_featured == 1){
 		$isChecked = ' checked="checked"';
-		$radioYes = ' checked="checked"';
-		$radioNo = "";
+		
 		
 		
 	}else{
 		$isChecked = '';
-		$radioYes = "";
-		$radioNo = ' checked="checked"';
+		
 		
 	}
-	//str_replace('"', "", $radioYes);
-	//str_replace("'", "", $radioYes);
-	//str_replace('"', "", $radioNo);
-	//str_replace("'", "", $radioNo);
+	
   	echo "
   	<form action=\"" . $action . "\" method=\"post\" id=\"new_record\" accept-charset=\"UTF-8\" class=\"pure-form pure-form-stacked\">
   	<input type=\"hidden\" name=\"title_id\" value=\"" . $this->_record_id . "\" />

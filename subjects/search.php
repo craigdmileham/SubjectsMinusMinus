@@ -37,26 +37,26 @@ if (isset($_POST["searchterm"])) {
 		switch($result['content_type']) {
 
 	 	  case 'Record':
-	 	  	$records_results[] = "<a href='databases.php?letter=%" . $result['matching_text'] . "%'/>" . $result['matching_text'] .  "</a>";	    
+	 	  	//$records_results[] = "<a href='databases.php?letter=%" . $result['matching_text'] . "%'/>" . $result['matching_text'] .  "</a>";	    
 		    break;
 
 	 	  case 'Talkback':
-	 	  	$talkback_results[] = "<a href='talkback.php?talkback_id=" . $result['id'] . "'/>" . $result['matching_text'] .  "</a>";	    
+	 	  	//$talkback_results[] = "<a href='talkback.php?talkback_id=" . $result['id'] . "'/>" . $result['matching_text'] .  "</a>";	    
 		    break;
 
 		  case 'Subject Guide':
-		    $guides_results[] = "<a href='guide.php?subject_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";
+		    $guides_results[] = "<a href='guide.php?subject=" . $result['shortform'] . "'/>". $result['matching_text'] ."</a>";
 		    break;
 
 		  case 'FAQ':
-		    $faq_results[] = "<a href='faq.php?faq_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";
+		    //$faq_results[] = "<a href='faq.php?faq_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";
 		    break;
 
 		  case 'Pluslet':
-		    $pluslets_results[] = "<a href='guide.php?subject_id=" . $result['parent_id'] . "#box-" . $result['tab_index'] . "-" . $result['id'] . "'/>" . $result['matching_text'] . "</a>";	    
+		    //$pluslets_results[] = "<a href='guide.php?subject_id=" . $result['parent_id'] . "#box-" . $result['tab_index'] . "-" . $result['id'] . "'/>" . $result['matching_text'] . "</a>";	    
 		    break;
 		  case 'Staff':
-		    $staff_results[] = "<a href='staff.php?staff_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";	    
+		    //$staff_results[] = "<a href='staff.php?staff_id=" . $result['id'] . "'/>". $result['matching_text'] ."</a>";	    
 		    break;
 		}   
 	}
