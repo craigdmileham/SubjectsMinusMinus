@@ -187,7 +187,7 @@ if ($num_resources == 0) {
 
 $q = "SELECT distinct pluslet_id, title, body
 FROM pluslet
-WHERE type = 'Special'
+WHERE pluslet_id != 8 and type = 'Special'
 $conditions
 ";
 
