@@ -237,7 +237,7 @@ if (isset ($v2styles) && $v2styles == 1) {
         </div>
         <div class="pluslet_body">
               <form name="summon" action="http://drew.summon.serialssolutions.com/search" method="get" target="_parent">Summon searches nearly everything (including journal articles) !
-				 <br><input type="text" name="q" size="50%" value="" onchange="document.walter.box1.value=document.summon.q.value;document.worldcat.q.value=document.summon.q.value;document.gScholar.q.value=document.summon.q.value;"><br>
+				 <br><input name="box2" type="text" name="q" size="50%" value="" onchange="document.walter.box1.value=document.summon.q.value;document.worldcat.q.value=document.summon.q.value;document.gScholar.q.value=document.summon.q.value;"><br>
 				 <input type="hidden" name="ho" value="t">
 				 <input type="hidden" name="l" value="en">
 				 <p align="right"><input type="submit" value="Search Summon">
