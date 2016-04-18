@@ -247,9 +247,9 @@ if (isset ($v2styles) && $v2styles == 1) {
 
 	  <!-- end pluslet -->
 <!-- EBSCOhost Custom Search Box Begins -->
-<script src="http://support.ebscohost.com/eit/scripts/ebscohostsearch.js" type="text/javascript"></script>
+<script src="http://support.ebsco.com/eit/scripts/ebscohostsearch.js" type="text/javascript"></script>
 <style type="text/css">
-		.choose-db-list{ list-style-type:none;padding:0;margin:10px 0 0 0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9pt;width:440px; }
+		.choose-db-list{ list-style-type:none;padding:0;margin:10px 0 0 0;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9pt;width:340px; }
 		.choose-db-check{ width:20px;float:left;padding-left:5px;padding-top:5px; }
 		.choose-db-detail{ margin-left:30px;border-left:solid 1px #E7E7E7;padding:5px 11px 7px 11px;line-height:1.4em; }
 		.summary { background-color:#1D5DA7;color:#FFFFFF;border:solid 1px #1D5DA7; }
@@ -258,10 +258,10 @@ if (isset ($v2styles) && $v2styles == 1) {
 		.selected { background-color: #E0EFF7;border:solid 1px #E7E7E7;border-top:solid 1px #FFFFFF; }
 		#ebscohostCustomSearchBox #disciplineBlock { width:auto; }
 		#ebscohostCustomSearchBox .limiter { float:left;margin:0;padding:0;width:50%; }
-
+		
 		#ebscohostsearchtext { width: 144px; }
 		#ebscohostsearchtext.edspub { width: 245px; }
-
+		
 		.ebscohost-search-button.edspub {
 			border: 1px solid #156619;
 			padding: 5px 10px !important;
@@ -270,27 +270,31 @@ if (isset ($v2styles) && $v2styles == 1) {
 			font-weight: bold;
 			background-color: #156619;
 		}
-
+		
 		.ebscohost-title.edspub {
 			color: #1c7020;
 			font-weight: bold;
 		}
 	</style>
-	<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" style="width:440px; overflow:auto;">
+	<div class="pluslet">
+        <div class="titlebar">
+          <div class="titlebar_text"><?php print _("Search Databases"); ?></div>
+        </div>
+	<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" style="width:340px; overflow:auto;">
 		<input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
-		<input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://ezproxy.drew.edu/login?url=http://search.ebscohost.com/login.aspx?authtype=uid&user=s8998431&password=password&group=main&profile=edshttp://search.ebscohost.com/login.aspx?direct=true&site=eds-live&scope=site&type=0&mode=bool&lang=en&authtype=cookie,ip" />
+		<input id="ebscohosturl" name="ebscohosturl" type="hidden" value="http://ezproxy.drew.edu/login?url=http://search.ebscohost.com/login.aspx?direct=true&site=eds-live&scope=site&type=0&custid=s8998431&groupid=main&profid=eds&mode=bool&lang=en&authtype=ip,uid" />
 		<input id="ebscohostsearchsrc" name="ebscohostsearchsrc" type="hidden" value="db" />
 		<input id="ebscohostsearchmode" name="ebscohostsearchmode" type="hidden" value="+" />
 		<input id="ebscohostkeywords" name="ebscohostkeywords" type="hidden" value="" />
-
-		<div style="background-image:url('http://support.ebscohost.com/images/logos/eds200.gif'); background-repeat:no-repeat; height:100px; width:440px; font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9pt; color:#353535;">
-			<div style="padding-top:5px;padding-left:215px;">
-				<span class="ebscohost-title " style="font-weight:bold;">Ebsco Discovery Service</span>
+		
+		<div style="background-image:url('http://support.ebscohost.com/images/logos/eds100.gif'); background-repeat:no-repeat; height:50px; width:340px; font-family:Verdana,Arial,Helvetica,sans-serif;font-size:9pt; color:#353535;">
+			<div style="padding-top:5px;padding-left:115px;">
+				<span class="ebscohost-title " style="font-weight:bold;">Research databases</span>
 
 				<div>
 					<input id="ebscohostsearchtext" class="" name="ebscohostsearchtext" type="text" size="23"  style="font-size:9pt;padding-left:5px;margin-left:0px;" />
 					<input type="submit" value="Search" class="ebscohost-search-button " style="font-size:9pt;padding-left:5px;" />
-
+					
 					<div id="guidedFieldSelectors">
 						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_0" value="" checked="checked" />
 						<label class="label" for="guidedField_0"> Keyword</label>
@@ -299,39 +303,39 @@ if (isset ($v2styles) && $v2styles == 1) {
 						<input class="radio" type="radio" name="searchFieldSelector" id="guidedField_2" value="AU" />
 						<label class="label" for="guidedField_2"> Author</label>
 					</div>
-
+					
 				</div>
 			</div>
 		</div>
 
 		<div id="limiterblock" style="margin-left:-px; overflow: auto; ">
 			<div id="limitertitle" style="font-weight:bold;padding-top:25px;padding-bottom:5px;">Limit Your Results</div>
-
+			
 			<div class="limiter" >
 				<input type="checkbox" id="chkFullText" name="chkFullText"  />
 				<label for="chkFullText">Full Text</label>
 			</div>
-
+			
 			<div class="limiter" >
 				<input type="checkbox" id="chkLibraryCollection" name="chkLibraryCollection"  />
 				<label for="chkLibraryCollection">Available in Library Collection</label>
 			</div>
-
+			
 			<div class="limiter" >
 				<input type="checkbox" id="chkPeerReviewed" name="chkPeerReviewed"  />
 				<label for="chkPeerReviewed">Peer Reviewed</label>
 			</div>
-
+			
 			<div class="limiter" >
 				<input type="checkbox" id="chkCatalogOnly" name="chkCatalogOnly"  />
 				<label for="chkCatalogOnly">Catalog Only</label>
 			</div>
-
+			
 		</div>
 
-
+		
 		<div id="disciplineBlock" style="margin-left:-px; overflow: auto;">
-
+			
 			<div style="display:none;">
 				<input type="checkbox" id="" name="" value="AERO"  />
 				<label for="">Aerospace Sciences</label>
@@ -597,9 +601,10 @@ if (isset ($v2styles) && $v2styles == 1) {
 				<label for="">Zoology</label>
 			</div>
 		</div>
+		  </div>
+      </div>
 
-
-
+		
 	</form>
 	<!-- EBSCOhost Custom Search Box Ends -->
         <br />
