@@ -184,7 +184,7 @@ $num_resources = count($r1);
 if ($num_resources == 0) {
   $conditions = "AND pluslet_id != '1'";
 }
-
+//Pluslet 8 does nothing, excluded from query
 $q = "SELECT distinct pluslet_id, title, body
 FROM pluslet
 WHERE pluslet_id != 8 and type = 'Special'
