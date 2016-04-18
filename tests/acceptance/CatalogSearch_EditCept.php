@@ -2,8 +2,8 @@
 // Test if book search is currently added to page
 $I = new AcceptanceTester($scenario);
 $I->wantTo('see if added Catalog Search Pluslet returns search results');
-$I->amOnPage('/subjects/guide.php?subject=general');
-$I->canSee("Book Search");
+/*$I->amOnPage('/subjects/guide.php?subject=general');
+$I->canSee("Book Search");*/
 //login to edit page
 $I->amOnPage('/control/login.php');
 $I->see('Please enter your credentials to proceed');
@@ -12,7 +12,11 @@ $I->fillField('Password', 'w3bm@n@g3r');
 $I->click('Submit');
 $I->click('Guides');
 $I->seeInCurrentUrl('/control/guides');
-$I->click('General');
+$I->click('Basketweaving');
+$I->see("Book Search");
+$I->fillField('box1', 'art');
+$I->click('Search');
+$I->seeInCurrentUrl('solr/keyword.php?box1=art');
 /*
 $I->seeInCurrentUrl('/control/guides/guide.php?subject_id=1');
 $I->moveMouseOver('#');
