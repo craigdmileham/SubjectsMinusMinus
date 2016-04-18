@@ -278,7 +278,7 @@ if (isset ($v2styles) && $v2styles == 1) {
 	</style>
 	<div class="pluslet">
         <div class="titlebar">
-          <div class="titlebar_text"><?php print _("Search Databases"); ?></div>
+          <div class="titlebar_text"><?php print _("Ebsco Discovery Service"); ?></div>
         </div>
 	<form id="ebscohostCustomSearchBox" action="" onsubmit="return ebscoHostSearchGo(this);" method="post" style="width:340px; overflow:auto;">
 		<input id="ebscohostwindow" name="ebscohostwindow" type="hidden" value="1" />
