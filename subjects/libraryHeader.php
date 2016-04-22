@@ -21,11 +21,7 @@
 </tr>
 
 </tbody></table>
-	<h1>Library Subject Resources: Anthropology</h1></div>
-<div style="float: right">
-<!-- ?php
-include ("proactive-custom-popout.php");
--->
- </div>
+</div>
+
     </div>
 </div>
