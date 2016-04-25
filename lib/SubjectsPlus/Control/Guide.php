@@ -8,9 +8,11 @@ namespace SubjectsPlus\Control;
  * @date Jan 2011
  * @todo better blunDer interaction, better message, maybe hide the blunder errors until the end
  */
+use SubjectsPlus\Control\Querier;
 
 class Guide
 {
+    private $_archive;
 
     private $_subject_id;
     private $_subject;
@@ -68,6 +70,7 @@ class Guide
                 $this->_extra = $_POST['extra'];
                 $this->_department = $_POST['department'];
                 $this->_header = $_POST['header'];
+                $this->_archive = $_POST["archive"];
 
                 //add http to redirect url if not present
                 $this->_redirect_url = strpos($this->_redirect_url, "http://") === 0 || strpos($this->_redirect_url, "https://") === 0
@@ -108,7 +111,7 @@ class Guide
                 /////////////
 
                 $db = new Querier();
-                $q1 = "select subject_id, subject, active, shortform, description, keywords, redirect_url, type, extra, header from subject where subject_id = " . $this->_subject_id;
+                $q1 = "select subject_id, subject, active, shortform, description, keywords, redirect_url, archive, type, extra, header from subject where subject_id = " . $this->_subject_id;
                 $guideArray = $db->query($q1);
 
                 $this->_debug .= "<p>Subject query: $q1";
@@ -125,8 +128,9 @@ class Guide
                     $this->_type = $guideArray[0]["type"];
                     $this->_extra = json_decode($guideArray[0]["extra"], true);
                     $this->_header = $guideArray[0]["header"];
+                    $this->_archive = $guideArray[0]["archive"];
                 }
-
+				
                 ///////////////////
                 // Query Staff table
                 // used to get our set of staff associated
@@ -222,8 +226,12 @@ class Guide
         global $wysiwyg_desc;
         global $IconPath;
         global $guide_types;
+        global $arcviveYes;
+        global $archiveNo;
+        global $archiveSelected;
         global $guide_headers;
         global $use_disciplines;
+		$archiveMe = "";
 
         //print "<pre>";print_r($this->_staffers); print "</pre>";
 
@@ -251,6 +259,9 @@ class Guide
                     </div>
                 <div class=\"pluslet_body\">
 
+
+
+
             <label for=\"record_title\">" . _("Guide") . "</label>
             <input type=\"text\" name=\"subject\" id=\"record_title\" class=\"pure-input-1-2 required_field\" value=\"" . $this->_subject . "\">
 
@@ -259,13 +270,33 @@ class Guide
 
             <span class=\"smaller\">* " . _("Short label that shows up in URL--don't use spaces, ampersands, etc.") . "</span>
 
-            <label for=\"type\">" . _("Type of Guide") . "</label>
+
+
             ";
+
+
+        /////////////////////
+        // Archive checkboxes
+        /////////////////////
+
+        $archiveMe = "<label for=\"archive\">" . _("Archive") . "</label>
+         <input type=\"radio\" name=\"archive\" id=\"archive\" class=\"pure-input-1-4\"  value=1\"";
+        if ($this->_archive == 1) {
+            $archiveMe .= ' checked="checked"';
+        }
+        $archiveMe .= " /> " . _("Yes") . " <br />
+        <input type=\"radio\" name=\"archive\" id=\"archive\" class=\"pure-input-1-4\"  value=0\"";
+        if ($this->_archive == 0) {
+            $archiveMe .= ' checked="checked"';
+        }
+        $archiveMe .= " /> " . _("No");
+        print $archiveMe;
+
 
         /////////////////////
         // Guide types dropdown
         /////////////////////
-
+        echo "<label for=\"type\">" . _("Type of Guide") . "</label>";
         $guideMe = new Dropdown("type", $guide_types, $this->_type, "50");
         $guide_string = $guideMe->display();
         echo $guide_string;
@@ -657,7 +688,7 @@ class Guide
         // update subject table
         /////////////////////
 
-        $qInsertSubject = "INSERT INTO subject (subject, shortform, description, keywords, redirect_url, active, type, header, extra) VALUES (
+        $qInsertSubject = "INSERT INTO subject (subject, shortform, description, keywords, redirect_url, active, type, header, archive, extra) VALUES (
         " . $db->quote(scrubData($this->_subject, "text")) . ",
         " . $db->quote(scrubData($this->_shortform, "text")) . ",
         " . $db->quote(scrubData($this->_description, "text")) . ",
@@ -666,6 +697,7 @@ class Guide
         " . $db->quote(scrubData($this->_active, "integer")) . ",
         " . $db->quote(scrubData($this->_type, "text")) . ",
         " . $db->quote(scrubData($this->_header, "text")) . ",
+		" . $db->quote(scrubData($this->_archive, "integer")) . ",
         " . $db->quote($json_extra) . "
         )";
 
@@ -758,6 +790,7 @@ class Guide
         active = " . $db->quote(scrubData($this->_active, "integer")) . ",
         type = " . $db->quote(scrubData($this->_type, "text")) . ",
         header = " . $db->quote(scrubData($this->_header, "text")) . ",
+		archive = " . $db->quote(scrubData($this->_archive, "integer")) . ",
         extra = " . $db->quote($json_extra) . "
         WHERE subject_id = " . scrubData($this->_subject_id, "integer");
 
