@@ -41,17 +41,35 @@ $v2styles = TRUE;
 
 <div id="header"> 
     <div id="header_inner_wrap">
-        <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-1-5">
-                <a href="<?php print $PublicPath; ?>"><img src="<?php print $AssetPath; ?>images/public/logo.png" alt="Home Page" /></a>
-                
-            </div>
-            <div class="pure-u-1 pure-u-md-4-5">
-                <?php if (isset($v2styles)) { print "<h1>$page_title</h1>"; } ?>
-            </div>
-        </div>
+  	<div>
+        <table border="0" cellspacing="10" class="navbar">
+  <tbody><tr>
+    <td rowspan="2"><img src="http://depts.drew.edu/lib/D_library.jpg" width="60" height="60"></td>
+    <td colspan="5" valign="top" class="RunningHead"><a href="http://www.drew.edu/library">Drew Library</a></td>
+ </tr>
+  <tr valign="top">
+    <td><a href="http://walter.drew.edu/splus/subjects/databases.php">Resources A-Z</a></td>
+<td> | </td><td>
+    </td><td><a href="http://walter.drew.edu/splus/subjects/index.php?type=Subject">Resources by Subject</a></td>
+<td> | </td><td>
+    </td><td><a href="http://walter.drew.edu/splus/subjects/index.php?type=Course">Course Pages</a></td>
+<td> | </td><td>
+    </td><td><a href="http://drew.summon.serialssolutions.com/">Summon</a></td>
+<td> | </td><td>
+    </td><td><a href="http://illiad.drew.edu">ILL</a></td>
+<td> | </td><td>
+    </td><td><a href="http://www.drew.edu/library/research">Research Resources</a></td>
+</tr>
+
+</tbody></table>
+	</div>
+<div style="float: right">
+<!-- ?php
+include ("proactive-custom-popout.php");
+-->
+ </div>
     </div>
-</div> <!--end #header-->
+</div>
 
 <div class="wrapper-full">
     <div class="pure-g">
