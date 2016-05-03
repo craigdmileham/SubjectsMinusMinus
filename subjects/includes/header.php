@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="utf-8">
 <title><?php print $page_title; ?></title>
+
+<title>Library Subject Resources</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="Description" content="<?php if (isset($description)) {print $description;} ?>" />
-<meta name="Keywords" content="<?php if (isset($keywords)) {print $keywords;} ?>" />
-<meta name="Author" content="" />
+<meta name="Description" content="The best stuff for your research.  No kidding.">
+<meta name="Keywords" content="research, databases, subjects, search, find">
 
 <link type="text/css" media="screen" rel="stylesheet" href="<?php print $AssetPath; ?>css/shared/pure-min.css">
 <link type="text/css" media="screen" rel="stylesheet" href="<?php print $AssetPath; ?>css/shared/grids-responsive-min.css">
 <link type="text/css" media="screen" rel="stylesheet" href="<?php print $AssetPath; ?>css/public/default.css">
 <link type="text/css" media="print" rel="stylesheet" href="<?php print $AssetPath; ?>css/public/print.css">
+
+<link type="text/css" media="all" rel="stylesheet" href="http://walter.drew.edu/splus/assets/css/bootstrap.css">
+<link type="text/css" media="screen" rel="stylesheet" href="http://walter.drew.edu/splus/assets/css/default.css">
+<link type="text/css" media="print" rel="stylesheet" href="http://walter.drew.edu/splus/assets/css/print.css"> 
 
 <?php 
 // Load our jQuery libraries + some css
